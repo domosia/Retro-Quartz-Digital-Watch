@@ -1,0 +1,11 @@
+<layout id="WatchFace">
+	<drawable id="MainBack" class="MainBack"/>
+	<drawable id="TopContent" class="TopContent">
+		<param name="batteryX">27</param>
+		<param name="blueToothX">58</param>
+		<param name="notificationX">75</param>
+		<param name="alarmX">98</param>
+	</drawable>
+	<drawable id="DateDrawable" class="DateDrawable"/>
+	<drawable id="TimeDrawable" class="TimeDrawable"/>
+</layout>

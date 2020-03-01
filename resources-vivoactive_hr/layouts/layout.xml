@@ -1,0 +1,23 @@
+<layout id="WatchFace">
+	<drawable id="MainBack" class="MainBack">
+		<param name="banner">false</param>
+		<param name="splitHeight">8</param>
+		<param name="splitTopY">50</param>
+		<param name="splitBottonY">150</param>
+	</drawable>
+	<drawable id="TopContent" class="TopContent">
+		<param name="y">18</param>
+		<param name="batteryX">5</param>
+		<param name="blueToothX">36</param>
+		<param name="notificationX">55</param>
+		<param name="alarmX">124</param>
+		<param name="alarmY">84</param>
+	</drawable>
+	<drawable id="DateDrawable" class="DateDrawable">
+		<param name="dayX">145</param>
+		<param name="dayY">10</param>
+		<param name="dateY">160</param>
+		<param name="dateX">145</param>
+	</drawable>
+	<drawable id="TimeDrawable" class="TimeDrawableVivoHR"/>
+</layout>
