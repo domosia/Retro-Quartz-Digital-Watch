@@ -3,6 +3,7 @@ using Toybox.WatchUi;
 using Toybox.System;
 
 class TimeDrawable extends WatchUi.Drawable {
+	private var partialUpdateDevice = (Toybox.WatchUi.WatchFace has :onPartialUpdate);
 	private var font;
 	private var font2;
 	private var font5;
@@ -44,8 +45,15 @@ class TimeDrawable extends WatchUi.Drawable {
 			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
 			dc.fillRectangle(xPositionSec, yPositionSec + 10, width, height);
 		}
-		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
-		dc.drawText(xPositionSec, yPositionSec, font2, sec, Gfx.TEXT_JUSTIFY_LEFT);
+		if (isPartialUpdate or partialUpdateDevice or !sleepMode) {
+			// show sec
+			dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+			dc.drawText(xPositionSec, yPositionSec, font2, sec, Gfx.TEXT_JUSTIFY_LEFT);
+		} else {
+			// no sec, sleep mode
+			dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
+			dc.drawText(xPositionSec, yPositionSec, font2, "--", Gfx.TEXT_JUSTIFY_LEFT);
+		}
 		if (dc has :setClip) {
 			dc.clearClip();
 		}
