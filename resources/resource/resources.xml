@@ -2,7 +2,7 @@
 	<fonts>
 		<font id="id_font_digital" filename="fonts/digital.fnt" filter="0123456789:" />
 		<font id="id_font_digital_sec" filename="fonts/digital_sec.fnt"
-			filter="0123456789" />
+			filter="0123456789-" />
 		<font id="id_font_digital_date" filename="fonts/digital_date.fnt"
 			filter="0123456789-abcdefghijklmnopqrstuvwyz" />
 		<font id="id_font_cas10" filename="fonts/cas10.fnt"
