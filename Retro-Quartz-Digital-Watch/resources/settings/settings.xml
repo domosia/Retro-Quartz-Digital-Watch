@@ -1,0 +1,19 @@
+<settings>
+
+	<setting propertyKey="@Properties.powerMode" title="@Strings.powerModeSettings">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.pm0</listEntry>
+			<listEntry value="1">@Strings.pm1</listEntry>
+			<listEntry value="2">@Strings.pm2</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.secMode" title="@Strings.secModeSettings">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.sm0</listEntry>
+			<listEntry value="1">@Strings.sm1</listEntry>
+			<listEntry value="2">@Strings.sm2</listEntry>
+		</settingConfig>
+	</setting>
+
+</settings>

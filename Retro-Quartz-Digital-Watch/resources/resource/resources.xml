@@ -1,0 +1,48 @@
+<resources>
+	<fonts>
+		<font id="id_font_digital" filename="fonts/digital.fnt" filter="0123456789:" />
+		<font id="id_font_digital_sec" filename="fonts/digital_sec.fnt"
+			filter="0123456789-" />
+		<font id="id_font_digital_date" filename="fonts/digital_date.fnt"
+			filter="0123456789-abcdefghijklmnopqrstuvwyz" />
+		<font id="id_font_cas10" filename="fonts/cas10.fnt"
+			filter="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ ." />
+		<font id="id_font_cas10_2" filename="fonts/cas10_2.fnt"
+			filter="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ " />
+	</fonts>
+	<bitmaps>
+		<bitmap id="bluetooth_icon_black" filename="images/bluetooth-icon.png" >
+			<palette disableTransparency="false">
+            	<color>000000</color>
+        	</palette>
+		</bitmap>
+		<bitmap id="bluetooth_icon_grey" filename="images/bluetooth-icon.png" >
+			<palette disableTransparency="false">
+            	<color>AAAAAA</color>
+        	</palette>
+		</bitmap>
+		<bitmap id="notification_icon_black" filename="images/notification-icon.png" >
+			<palette disableTransparency="false">
+            	<color>000000</color>
+        	</palette>
+		</bitmap>
+		<bitmap id="notification_icon_grey" filename="images/notification-icon.png" >
+			<palette disableTransparency="false">
+            	<color>AAAAAA</color>
+        	</palette>
+		</bitmap>
+		<bitmap id="silent_icon_black" filename="images/silent-icon.png" >
+			<palette disableTransparency="false">
+            	<color>FF0000</color>
+        	</palette>
+		</bitmap>
+		<bitmap id="silent_icon_grey" filename="images/silent-icon.png" >
+			<palette disableTransparency="false">
+            	<color>AAAAAA</color>
+        	</palette>
+		</bitmap>
+	</bitmaps>
+
+	
+	
+</resources>

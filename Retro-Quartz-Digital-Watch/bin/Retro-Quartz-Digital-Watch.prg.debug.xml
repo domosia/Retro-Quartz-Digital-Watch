@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="21" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="22" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="23" pc="268435480" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="24" pc="268435523" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="25" pc="268435566" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="26" pc="268435609" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="27" pc="268435652" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="28" pc="268435695" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="29" pc="268435738" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="30" pc="268435756" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="31" pc="268435763" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="33" pc="268435776" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="34" pc="268435794" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="35" pc="268435801" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="37" pc="268435814" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="38" pc="268435832" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="39" pc="268435839" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="41" pc="268435852" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="42" pc="268435870" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="43" pc="268435877" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="45" pc="268435890" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="46" pc="268435908" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="47" pc="268435915" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="49" pc="268435928" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="50" pc="268435946" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="3" lineNum="51" pc="268435953" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="55" pc="268435967" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="56" pc="268435971" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="57" pc="268435971" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="60" pc="268435984" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="61" pc="268435997" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="65" pc="268436010" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="66" pc="268436046" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="68" pc="268436072" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="69" pc="268436083" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="71" pc="268436094" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="72" pc="268436130" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="73" pc="268436162" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="74" pc="268436198" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="75" pc="268436251" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="76" pc="268436287" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="79" pc="268436343" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="81" pc="268436354" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="82" pc="268436390" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="83" pc="268436437" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="84" pc="268436473" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="85" pc="268436529" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="86" pc="268436565" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="91" pc="268436627" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="92" pc="268436663" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="95" pc="268436707" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\MainBack.mc" id="4" lineNum="96" pc="268436743" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="6" lineNum="14" pc="268436788" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="6" lineNum="15" pc="268436792" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="6" lineNum="16" pc="268436812" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="6" lineNum="17" pc="268436855" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="6" lineNum="18" pc="268436898" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="6" lineNum="19" pc="268436941" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="6" lineNum="20" pc="268436959" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="6" lineNum="21" pc="268436966" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="6" lineNum="23" pc="268436979" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="6" lineNum="24" pc="268436997" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="6" lineNum="25" pc="268437004" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="7" lineNum="29" pc="268437018" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="7" lineNum="30" pc="268437022" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="7" lineNum="32" pc="268437041" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="35" pc="268437100" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="36" pc="268437104" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="37" pc="268437184" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="38" pc="268437217" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="39" pc="268437224" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="40" pc="268437231" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="41" pc="268437242" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="43" pc="268437271" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="45" pc="268437276" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="46" pc="268437312" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="48" pc="268437341" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="50" pc="268437407" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="51" pc="268437443" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="54" pc="268437484" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="55" pc="268437516" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="57" pc="268437560" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="8" lineNum="58" pc="268437571" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="10" lineNum="76" pc="268437891" symbol="margin"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TimeDrawable.mc" id="10" lineNum="77" pc="268437895" symbol="margin"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="12" lineNum="12" pc="268437920" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="12" lineNum="13" pc="268437924" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="12" lineNum="14" pc="268437944" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="12" lineNum="15" pc="268437987" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="12" lineNum="16" pc="268438030" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="12" lineNum="17" pc="268438073" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="12" lineNum="18" pc="268438091" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="12" lineNum="19" pc="268438098" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="13" lineNum="23" pc="268438112" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="13" lineNum="24" pc="268438116" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="13" lineNum="26" pc="268438135" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="14" lineNum="29" pc="268438194" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="14" lineNum="30" pc="268438198" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="14" lineNum="31" pc="268438205" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="14" lineNum="32" pc="268438209" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="14" lineNum="33" pc="268438245" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="14" lineNum="34" pc="268438325" symbol="drawSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="16" lineNum="54" pc="268438740" symbol="margin"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source-vivoactive_hr\\drawable\\TimeDrawableVivoHR.mc" id="16" lineNum="55" pc="268438744" symbol="margin"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="18" lineNum="11" pc="268438769" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="18" lineNum="12" pc="268438773" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="18" lineNum="13" pc="268438783" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="18" lineNum="14" pc="268438793" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="18" lineNum="15" pc="268438803" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="18" pc="268438814" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="19" pc="268438818" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="20" pc="268438841" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="21" pc="268438848" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="22" pc="268438855" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="23" pc="268438862" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="24" pc="268438869" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="25" pc="268438876" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="26" pc="268438912" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="27" pc="268438956" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="28" pc="268439030" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="29" pc="268439038" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="31" pc="268439077" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="33" pc="268439113" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BatteryUi.mc" id="19" lineNum="34" pc="268439134" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="9" pc="268439213" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="10" pc="268439225" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="12" pc="268439337" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="15" pc="268439394" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="16" pc="268439411" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="17" pc="268439421" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="18" pc="268439470" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="19" pc="268439528" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="21" pc="268439586" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="22" pc="268439603" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="24" pc="268439634" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="26" pc="268439678" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="27" pc="268439736" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="21" lineNum="29" pc="268439776" symbol="build"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="22" lineNum="33" pc="268439827" symbol="calculateHour"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="22" lineNum="34" pc="268439839" symbol="calculateHour"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="22" lineNum="35" pc="268439856" symbol="calculateHour"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="22" lineNum="36" pc="268439868" symbol="calculateHour"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="22" lineNum="37" pc="268439879" symbol="calculateHour"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="22" lineNum="38" pc="268439889" symbol="calculateHour"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="22" lineNum="39" pc="268439900" symbol="calculateHour"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="22" lineNum="43" pc="268439916" symbol="calculateHour"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="23" lineNum="46" pc="268439920" symbol="calculateMeridiam"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="23" lineNum="47" pc="268439932" symbol="calculateMeridiam"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="23" lineNum="48" pc="268439949" symbol="calculateMeridiam"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="23" lineNum="49" pc="268439961" symbol="calculateMeridiam"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="23" lineNum="51" pc="268439989" symbol="calculateMeridiam"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="25" lineNum="66" pc="268439996" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="25" lineNum="68" pc="268440000" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="25" lineNum="69" pc="268440010" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="25" lineNum="70" pc="268440020" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="25" lineNum="71" pc="268440030" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="25" lineNum="72" pc="268440040" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="25" lineNum="73" pc="268440050" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="25" lineNum="74" pc="268440060" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="25" lineNum="75" pc="268440070" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="26" lineNum="78" pc="268440081" symbol="getHour"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="26" lineNum="79" pc="268440085" symbol="getHour"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="27" lineNum="82" pc="268440095" symbol="getMinutes"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="27" lineNum="83" pc="268440099" symbol="getMinutes"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="28" lineNum="86" pc="268440109" symbol="getSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="28" lineNum="87" pc="268440113" symbol="getSeconds"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="29" lineNum="90" pc="268440123" symbol="getDayOfWeek"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="29" lineNum="91" pc="268440127" symbol="getDayOfWeek"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="30" lineNum="94" pc="268440137" symbol="getStep"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="30" lineNum="95" pc="268440141" symbol="getStep"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="31" lineNum="98" pc="268440151" symbol="getMonth"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="31" lineNum="99" pc="268440155" symbol="getMonth"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="32" lineNum="102" pc="268440165" symbol="getDay"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="32" lineNum="103" pc="268440169" symbol="getDay"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="33" lineNum="106" pc="268440179" symbol="getMeridiam"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DateTimeBuilder.mc" id="33" lineNum="107" pc="268440183" symbol="getMeridiam"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="35" lineNum="11" pc="268440193" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="35" lineNum="12" pc="268440197" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="36" lineNum="16" pc="268440216" symbol="onLayout"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="36" lineNum="17" pc="268440220" symbol="onLayout"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="36" lineNum="18" pc="268440253" symbol="onLayout"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="37" lineNum="24" pc="268440274" symbol="onShow"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="38" lineNum="28" pc="268440279" symbol="onUpdate"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="38" lineNum="29" pc="268440283" symbol="onUpdate"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="39" lineNum="41" pc="268440304" symbol="onPartialUpdate"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="39" lineNum="43" pc="268440308" symbol="onPartialUpdate"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="39" lineNum="44" pc="268440325" symbol="onPartialUpdate"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="39" lineNum="45" pc="268440335" symbol="onPartialUpdate"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="39" lineNum="46" pc="268440354" symbol="onPartialUpdate"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="40" lineNum="54" pc="268440397" symbol="onHide"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="41" lineNum="58" pc="268440402" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="41" lineNum="59" pc="268440406" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="41" lineNum="60" pc="268440416" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="42" lineNum="64" pc="268440429" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="42" lineNum="65" pc="268440433" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="42" lineNum="66" pc="268440443" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="43" lineNum="69" pc="268440456" symbol="margin"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchView.mc" id="43" lineNum="70" pc="268440460" symbol="margin"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\NotificationUi.mc" id="45" lineNum="13" pc="268440485" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\NotificationUi.mc" id="45" lineNum="14" pc="268440489" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\NotificationUi.mc" id="45" lineNum="15" pc="268440499" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\NotificationUi.mc" id="45" lineNum="16" pc="268440509" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\NotificationUi.mc" id="45" lineNum="17" pc="268440519" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\NotificationUi.mc" id="46" lineNum="21" pc="268440530" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\NotificationUi.mc" id="46" lineNum="22" pc="268440534" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="15" pc="268440633" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="16" pc="268440637" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="17" pc="268440657" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="18" pc="268440700" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="19" pc="268440718" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="20" pc="268440725" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="22" pc="268440738" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="23" pc="268440756" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="24" pc="268440763" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="26" pc="268440776" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="27" pc="268440794" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="28" pc="268440801" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="30" pc="268440814" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="31" pc="268440832" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="32" pc="268440839" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="34" pc="268440852" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="35" pc="268440870" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="36" pc="268440877" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="38" pc="268440890" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="39" pc="268440908" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="40" pc="268440915" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="49" lineNum="42" pc="268440928" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="50" lineNum="45" pc="268440945" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="50" lineNum="46" pc="268440949" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="50" lineNum="47" pc="268440968" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\DateDrawable.mc" id="50" lineNum="48" pc="268441015" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BluetoothUi.mc" id="54" lineNum="10" pc="268441291" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BluetoothUi.mc" id="54" lineNum="11" pc="268441295" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BluetoothUi.mc" id="54" lineNum="12" pc="268441305" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BluetoothUi.mc" id="54" lineNum="13" pc="268441315" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BluetoothUi.mc" id="54" lineNum="14" pc="268441325" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BluetoothUi.mc" id="55" lineNum="23" pc="268441336" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BluetoothUi.mc" id="55" lineNum="24" pc="268441340" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BluetoothUi.mc" id="55" lineNum="25" pc="268441353" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BluetoothUi.mc" id="55" lineNum="26" pc="268441367" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\BluetoothUi.mc" id="55" lineNum="29" pc="268441371" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="13" pc="268441603" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="14" pc="268441607" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="15" pc="268441627" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="16" pc="268441650" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="17" pc="268441673" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="18" pc="268441689" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="19" pc="268441707" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="20" pc="268441714" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="22" pc="268441733" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="23" pc="268441751" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="24" pc="268441758" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="26" pc="268441768" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="27" pc="268441786" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="28" pc="268441793" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="30" pc="268441803" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="31" pc="268441821" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="32" pc="268441828" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="34" pc="268441838" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="35" pc="268441856" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="36" pc="268441863" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="38" pc="268441873" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="39" pc="268441891" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="40" pc="268441898" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="42" pc="268441905" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="43" pc="268441948" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="44" pc="268441991" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="45" pc="268442028" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="46" pc="268442065" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="47" pc="268442103" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="48" pc="268442147" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="49" pc="268442184" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="50" pc="268442221" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="51" pc="268442265" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="52" pc="268442302" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="58" lineNum="53" pc="268442339" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="59" lineNum="56" pc="268442378" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="59" lineNum="57" pc="268442382" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="59" lineNum="58" pc="268442402" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="59" lineNum="59" pc="268442422" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\drawable\\TopContent.mc" id="59" lineNum="60" pc="268442442" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="61" lineNum="7" pc="268442463" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="61" lineNum="8" pc="268442467" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="62" lineNum="12" pc="268442486" symbol="onStart"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="62" lineNum="13" pc="268442490" symbol="onStart"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="63" lineNum="17" pc="268442503" symbol="onStop"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="64" lineNum="21" pc="268442508" symbol="getInitialView"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="64" lineNum="22" pc="268442512" symbol="getInitialView"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="65" lineNum="25" pc="268442550" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="65" lineNum="26" pc="268442554" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="65" lineNum="27" pc="268442566" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="30" pc="268442583" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="31" pc="268442587" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="32" pc="268442594" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="33" pc="268442617" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="34" pc="268442647" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="36" pc="268442674" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="37" pc="268442713" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="39" pc="268442746" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="40" pc="268442757" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="41" pc="268442777" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="42" pc="268442793" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="43" pc="268442804" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="44" pc="268442824" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="46" pc="268442840" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\DigitalWatchApp.mc" id="66" lineNum="47" pc="268442860" symbol="getSettings"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\AlarmUi.mc" id="68" lineNum="13" pc="268442874" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\AlarmUi.mc" id="68" lineNum="14" pc="268442878" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\AlarmUi.mc" id="68" lineNum="15" pc="268442888" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\AlarmUi.mc" id="68" lineNum="16" pc="268442898" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\AlarmUi.mc" id="68" lineNum="17" pc="268442908" symbol="initialize"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\AlarmUi.mc" id="69" lineNum="20" pc="268442919" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\AlarmUi.mc" id="69" lineNum="21" pc="268442923" symbol="draw"/>
+<entry filename="C:\\Users\\a\\eclipse-workspace\\Retro-Quartz-Digital-Watch\\source\\AlarmUi.mc" id="69" lineNum="22" pc="268442947" symbol="draw"/>
+<entry filename="Rez" id="76" lineNum="26" pc="268443043" symbol="WatchFace"/>
+<entry filename="Rez" id="76" lineNum="29" pc="268443055" symbol="WatchFace"/>
+<entry filename="Rez" id="76" lineNum="30" pc="268443098" symbol="WatchFace"/>
+<entry filename="Rez" id="76" lineNum="31" pc="268443141" symbol="WatchFace"/>
+<entry filename="Rez" id="76" lineNum="32" pc="268443184" symbol="WatchFace"/>
+<entry filename="Rez" id="76" lineNum="34" pc="268443227" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="100" symbol="bluetooth_icon_black"/>
+<entry field="true" id="88" symbol="&lt;globals/MainBack/&lt;&gt;height&gt;"/>
+<entry id="76" method="true" symbol="getDay"/>
+<entry id="75" method="true" symbol="getMonth"/>
+<entry field="true" id="28" symbol="&lt;globals/BluetoothUi/&lt;&gt;bluetoothIconBlack&gt;"/>
+<entry id="150" symbol="blueToothX"/>
+<entry id="53" method="true" symbol="&lt;globals/DateDrawable/&lt;&gt;drawDate&gt;"/>
+<entry id="149" symbol="batteryX"/>
+<entry field="true" id="62" symbol="&lt;globals/DateTimeBuilder/DateTime/&lt;&gt;hourString&gt;"/>
+<entry id="136" method="true" symbol="getSettings"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry id="148" symbol="meridiamY"/>
+<entry field="true" id="84" symbol="&lt;globals/MainBack/&lt;&gt;banner&gt;"/>
+<entry field="true" id="81" symbol="&lt;globals/MainBack/&lt;&gt;label4&gt;"/>
+<entry field="true" id="80" symbol="&lt;globals/MainBack/&lt;&gt;label3&gt;"/>
+<entry field="true" id="79" symbol="&lt;globals/MainBack/&lt;&gt;label2&gt;"/>
+<entry field="true" id="85" symbol="&lt;globals/MainBack/&lt;&gt;bannerTop&gt;"/>
+<entry id="18" module="true" symbol="DateTimeBuilder"/>
+<entry field="true" id="78" symbol="&lt;globals/MainBack/&lt;&gt;label1&gt;"/>
+<entry field="true" id="32" symbol="Connected"/>
+<entry id="142" symbol="banner"/>
+<entry field="true" id="105" symbol="silent_icon_grey"/>
+<entry id="8390424" module="true" symbol="Storage"/>
+<entry id="52" method="true" symbol="&lt;globals/DateDrawable/&lt;&gt;drawStep&gt;"/>
+<entry field="true" id="8389795" symbol="doNotDisturb"/>
+<entry field="true" id="45" symbol="&lt;globals/DateDrawable/&lt;&gt;width&gt;"/>
+<entry id="38" method="true" symbol="drawSeconds"/>
+<entry field="true" id="12" symbol="secColor"/>
+<entry field="true" id="87" symbol="&lt;globals/MainBack/&lt;&gt;splitHeight&gt;"/>
+<entry field="true" id="134" symbol="&lt;globals/AlarmUi/&lt;&gt;alarmIconGrey&gt;"/>
+<entry field="true" id="111" symbol="id_font_cas10_2"/>
+<entry field="true" id="126" symbol="&lt;globals/TopContent/&lt;&gt;font5&gt;"/>
+<entry field="true" id="140" symbol="&lt;globals/NotificationUi/&lt;&gt;notificationIconGrey&gt;"/>
+<entry field="true" id="125" symbol="&lt;globals/TopContent/&lt;&gt;font4&gt;"/>
+<entry field="true" id="48" symbol="dateY"/>
+<entry field="true" id="49" symbol="dateX"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="104" symbol="silent_icon_black"/>
+<entry field="true" id="101" symbol="bluetooth_icon_grey"/>
+<entry id="21" object="true" symbol="DateDrawable"/>
+<entry field="true" id="47" symbol="dayY"/>
+<entry field="true" id="46" symbol="dayX"/>
+<entry field="true" id="129" symbol="notificationUi"/>
+<entry id="153" symbol="alarmY"/>
+<entry id="152" symbol="alarmX"/>
+<entry field="true" id="116" symbol="AppName"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry id="17" object="true" symbol="BatteryUi"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="96" method="true" symbol="&lt;globals/TimeDrawable/&lt;&gt;drawTime&gt;"/>
+<entry field="true" id="51" symbol="stepY"/>
+<entry field="true" id="50" symbol="stepX"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8390097" method="true" symbol="onPartialUpdate"/>
+<entry field="true" id="130" symbol="alarmUi"/>
+<entry field="true" id="35" symbol="&lt;globals/TimeDrawableVivoHR/&lt;&gt;font5&gt;"/>
+<entry field="true" id="8390483" symbol="connectionInfo"/>
+<entry id="135" method="true" symbol="&lt;globals/AlarmUi/&lt;&gt;alarmState&gt;"/>
+<entry field="true" id="36" symbol="&lt;globals/TimeDrawableVivoHR/&lt;&gt;font3&gt;"/>
+<entry field="true" id="112" symbol="powerModeSettings"/>
+<entry id="23" object="true" symbol="TopContent"/>
+<entry field="true" id="34" symbol="&lt;globals/TimeDrawableVivoHR/&lt;&gt;font2&gt;"/>
+<entry id="39" method="true" symbol="&lt;globals/TimeDrawableVivoHR/&lt;&gt;drawTime&gt;"/>
+<entry field="true" id="95" symbol="&lt;globals/TimeDrawable/&lt;&gt;meridiamY&gt;"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="90" symbol="&lt;globals/MainBack/&lt;&gt;splitBottonY&gt;"/>
+<entry id="20" object="true" symbol="NotificationUi"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry field="true" id="107" symbol="id_font_digital"/>
+<entry id="99" module="true" symbol="Menus"/>
+<entry id="33" method="true" symbol="&lt;globals/BluetoothUi/&lt;&gt;bluetoothState&gt;"/>
+<entry id="22" object="true" symbol="BluetoothUi"/>
+<entry id="151" symbol="notificationX"/>
+<entry field="true" id="56" symbol="&lt;globals/BatteryUi/&lt;&gt;width&gt;"/>
+<entry field="true" id="44" symbol="&lt;globals/DateDrawable/&lt;&gt;height&gt;"/>
+<entry field="true" id="41" symbol="layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="55" symbol="&lt;globals/BatteryUi/&lt;&gt;y&gt;"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="124" symbol="sm2"/>
+<entry field="true" id="122" symbol="sm1"/>
+<entry field="true" id="123" symbol="sm0"/>
+<entry field="true" id="54" symbol="&lt;globals/BatteryUi/&lt;&gt;x&gt;"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="146" symbol="splitTopY"/>
+<entry field="true" id="11" symbol="gp"/>
+<entry field="true" id="30" symbol="NotInitialized"/>
+<entry field="true" id="109" symbol="id_font_digital_date"/>
+<entry field="true" id="65" symbol="&lt;globals/DateTimeBuilder/DateTime/&lt;&gt;monthStr&gt;"/>
+<entry field="true" id="110" symbol="id_font_cas10"/>
+<entry field="true" id="43" symbol="font3"/>
+<entry id="24" object="true" symbol="DigitalWatchApp"/>
+<entry field="true" id="64" symbol="&lt;globals/DateTimeBuilder/DateTime/&lt;&gt;secString&gt;"/>
+<entry field="true" id="67" symbol="&lt;globals/DateTimeBuilder/DateTime/&lt;&gt;dayStr&gt;"/>
+<entry field="true" id="92" symbol="&lt;globals/TimeDrawable/&lt;&gt;font&gt;"/>
+<entry id="59" method="true" symbol="calculateHour"/>
+<entry id="40" method="true" symbol="&lt;globals/TimeDrawableVivoHR/&lt;&gt;margin&gt;"/>
+<entry id="58" method="true" symbol="build"/>
+<entry field="true" id="37" symbol="paddingY"/>
+<entry id="14" object="true" symbol="MainBack"/>
+<entry id="143" symbol="bannerTop"/>
+<entry field="true" id="127" symbol="bluetoothUi"/>
+<entry id="73" method="true" symbol="getDayOfWeek"/>
+<entry field="true" id="108" symbol="id_font_digital_sec"/>
+<entry id="71" method="true" symbol="getMinutes"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="144" symbol="bannerBottom"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="61" object="true" symbol="DateTime"/>
+<entry field="true" id="119" symbol="Label4"/>
+<entry field="true" id="114" symbol="Label3"/>
+<entry field="true" id="115" symbol="Label2"/>
+<entry field="true" id="113" symbol="Label1"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="145" symbol="splitHeight"/>
+<entry field="true" id="89" symbol="&lt;globals/MainBack/&lt;&gt;splitTopY&gt;"/>
+<entry field="true" id="66" symbol="&lt;globals/DateTimeBuilder/DateTime/&lt;&gt;stepStr&gt;"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="106" symbol="LauncherIcon"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="139" symbol="&lt;globals/NotificationUi/&lt;&gt;notificationIconBlack&gt;"/>
+<entry id="8390485" symbol="bluetooth"/>
+<entry field="true" id="102" symbol="notification_icon_black"/>
+<entry field="true" id="10" symbol="sleepMode"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="94" symbol="&lt;globals/TimeDrawable/&lt;&gt;font5&gt;"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="27" symbol="&lt;globals/BluetoothUi/&lt;&gt;y&gt;"/>
+<entry field="true" id="93" symbol="&lt;globals/TimeDrawable/&lt;&gt;font2&gt;"/>
+<entry field="true" id="133" symbol="&lt;globals/AlarmUi/&lt;&gt;alarmIconBlack&gt;"/>
+<entry field="true" id="26" symbol="&lt;globals/BluetoothUi/&lt;&gt;x&gt;"/>
+<entry id="25" object="true" symbol="AlarmUi"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="74" method="true" symbol="getStep"/>
+<entry field="true" id="128" symbol="batteryUi"/>
+<entry id="141" method="true" symbol="&lt;globals/NotificationUi/&lt;&gt;notificationState&gt;"/>
+<entry field="true" id="121" symbol="secModeSettings"/>
+<entry id="60" method="true" symbol="calculateMeridiam"/>
+<entry field="true" id="103" symbol="notification_icon_grey"/>
+<entry field="true" id="63" symbol="&lt;globals/DateTimeBuilder/DateTime/&lt;&gt;minString&gt;"/>
+<entry field="true" id="29" symbol="&lt;globals/BluetoothUi/&lt;&gt;bluetoothIconGrey&gt;"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="70" method="true" symbol="getHour"/>
+<entry id="42" method="true" symbol="margin"/>
+<entry field="true" id="86" symbol="&lt;globals/MainBack/&lt;&gt;bannerBottom&gt;"/>
+<entry field="true" id="57" symbol="&lt;globals/BatteryUi/&lt;&gt;height&gt;"/>
+<entry id="77" method="true" symbol="getMeridiam"/>
+<entry id="98" module="true" symbol="Layouts"/>
+<entry field="true" id="69" symbol="&lt;globals/DateTimeBuilder/DateTime/&lt;&gt;meridiam&gt;"/>
+<entry id="97" method="true" symbol="&lt;globals/TimeDrawable/&lt;&gt;margin&gt;"/>
+<entry field="true" id="13" symbol="secHidden"/>
+<entry field="true" id="91" symbol="&lt;globals/TimeDrawable/&lt;&gt;partialUpdateDevice&gt;"/>
+<entry field="true" id="118" symbol="pm2"/>
+<entry field="true" id="120" symbol="pm1"/>
+<entry field="true" id="117" symbol="pm0"/>
+<entry field="true" id="68" symbol="&lt;globals/DateTimeBuilder/DateTime/&lt;&gt;dayWeekStr&gt;"/>
+<entry field="true" id="138" symbol="&lt;globals/NotificationUi/&lt;&gt;y&gt;"/>
+<entry field="true" id="31" symbol="NotConnected"/>
+<entry field="true" id="137" symbol="&lt;globals/NotificationUi/&lt;&gt;x&gt;"/>
+<entry field="true" id="132" symbol="&lt;globals/AlarmUi/&lt;&gt;y&gt;"/>
+<entry field="true" id="131" symbol="&lt;globals/AlarmUi/&lt;&gt;x&gt;"/>
+<entry id="15" object="true" symbol="TimeDrawable"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="72" method="true" symbol="getSeconds"/>
+<entry id="8390103" method="true" symbol="setClip"/>
+<entry id="16" object="true" symbol="TimeDrawableVivoHR"/>
+<entry id="19" object="true" symbol="DigitalWatchView"/>
+<entry field="true" id="8390079" symbol="y"/>
+<entry field="true" id="83" symbol="&lt;globals/MainBack/&lt;&gt;font5&gt;"/>
+<entry field="true" id="82" symbol="&lt;globals/MainBack/&lt;&gt;font4&gt;"/>
+<entry id="147" symbol="splitBottonY"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435966" name="bannerTop_" stackId="3" startPc="268435460"/>
+<entry endPc="268435966" name="splitTopY_" stackId="6" startPc="268435460"/>
+<entry endPc="268435966" name="splitHeight_" stackId="5" startPc="268435460"/>
+<entry endPc="268435966" name="banner_" stackId="2" startPc="268435460"/>
+<entry endPc="268435966" name="splitBottonY_" stackId="7" startPc="268435460"/>
+<entry endPc="268435966" name="bannerBottom_" stackId="4" startPc="268435460"/>
+<entry endPc="268435967" name="options" stackId="1" startPc="268435456"/>
+<entry endPc="268436787" name="height" stackId="3" startPc="268435971"/>
+<entry endPc="268436787" name="width" stackId="2" startPc="268435971"/>
+<entry endPc="268436787" name="screenWidth" stackId="4" startPc="268435971"/>
+<entry endPc="268436788" name="dc" stackId="1" startPc="268435967"/>
+<entry endPc="268437017" name="meridiamY_" stackId="3" startPc="268436792"/>
+<entry endPc="268437017" name="paddingY_" stackId="2" startPc="268436792"/>
+<entry endPc="268437018" name="options" stackId="1" startPc="268436788"/>
+<entry endPc="268437099" name="dateTime" stackId="2" startPc="268437022"/>
+<entry endPc="268437100" name="dc" stackId="1" startPc="268437018"/>
+<entry endPc="268437586" name="height" stackId="7" startPc="268437104"/>
+<entry endPc="268437586" name="yPositionSec" stackId="4" startPc="268437104"/>
+<entry endPc="268437586" name="width" stackId="6" startPc="268437104"/>
+<entry endPc="268437586" name="xPositionSec" stackId="5" startPc="268437104"/>
+<entry endPc="268437587" name="dc" stackId="1" startPc="268437100"/>
+<entry endPc="268437587" name="sec" stackId="2" startPc="268437100"/>
+<entry endPc="268437587" name="isPartialUpdate" stackId="3" startPc="268437100"/>
+<entry endPc="268437890" name="yPosition" stackId="7" startPc="268437591"/>
+<entry endPc="268437890" name="xPosition" stackId="8" startPc="268437591"/>
+<entry endPc="268437890" name="margin" stackId="6" startPc="268437591"/>
+<entry endPc="268437891" name="hour" stackId="2" startPc="268437587"/>
+<entry endPc="268437891" name="dc" stackId="1" startPc="268437587"/>
+<entry endPc="268437891" name="meridiam" stackId="5" startPc="268437587"/>
+<entry endPc="268437891" name="sec" stackId="4" startPc="268437587"/>
+<entry endPc="268437891" name="minute" stackId="3" startPc="268437587"/>
+<entry endPc="268437920" name="dc" stackId="1" startPc="268437891"/>
+<entry endPc="268438111" name="paddingY_" stackId="2" startPc="268437924"/>
+<entry endPc="268438112" name="options" stackId="1" startPc="268437920"/>
+<entry endPc="268438193" name="dateTime" stackId="2" startPc="268438116"/>
+<entry endPc="268438194" name="dc" stackId="1" startPc="268438112"/>
+<entry endPc="268438399" name="secString" stackId="4" startPc="268438198"/>
+<entry endPc="268438399" name="yPosition" stackId="5" startPc="268438198"/>
+<entry endPc="268438400" name="dc" stackId="1" startPc="268438194"/>
+<entry endPc="268438400" name="sec" stackId="2" startPc="268438194"/>
+<entry endPc="268438400" name="isPartialUpdate" stackId="3" startPc="268438194"/>
+<entry endPc="268438739" name="yPosition" stackId="7" startPc="268438404"/>
+<entry endPc="268438739" name="margin" stackId="6" startPc="268438404"/>
+<entry endPc="268438740" name="hour" stackId="2" startPc="268438400"/>
+<entry endPc="268438740" name="dc" stackId="1" startPc="268438400"/>
+<entry endPc="268438740" name="meridiam" stackId="5" startPc="268438400"/>
+<entry endPc="268438740" name="sec" stackId="4" startPc="268438400"/>
+<entry endPc="268438740" name="minute" stackId="3" startPc="268438400"/>
+<entry endPc="268438769" name="dc" stackId="1" startPc="268438740"/>
+<entry endPc="268438814" name="x_" stackId="1" startPc="268438769"/>
+<entry endPc="268438814" name="y_" stackId="2" startPc="268438769"/>
+<entry endPc="268438814" name="width_" stackId="3" startPc="268438769"/>
+<entry endPc="268438814" name="height_" stackId="4" startPc="268438769"/>
+<entry endPc="268439212" name="i" stackId="8" startPc="268439134"/>
+<entry endPc="268439212" name="fullBattery" stackId="7" startPc="268438818"/>
+<entry endPc="268439212" name="battery" stackId="2" startPc="268438818"/>
+<entry endPc="268439212" name="size" stackId="5" startPc="268438818"/>
+<entry endPc="268439212" name="split" stackId="3" startPc="268438818"/>
+<entry endPc="268439212" name="lowBattery" stackId="6" startPc="268438818"/>
+<entry endPc="268439212" name="block" stackId="4" startPc="268438818"/>
+<entry endPc="268439213" name="dc" stackId="1" startPc="268438814"/>
+<entry endPc="268439826" name="secString" stackId="7" startPc="268439225"/>
+<entry endPc="268439826" name="now" stackId="8" startPc="268439225"/>
+<entry endPc="268439826" name="info" stackId="9" startPc="268439225"/>
+<entry endPc="268439826" name="day_of_week_array" stackId="1" startPc="268439225"/>
+<entry endPc="268439826" name="clockTime" stackId="3" startPc="268439225"/>
+<entry endPc="268439826" name="hourString" stackId="5" startPc="268439225"/>
+<entry endPc="268439826" name="hour" stackId="4" startPc="268439225"/>
+<entry endPc="268439826" name="dayStr" stackId="11" startPc="268439225"/>
+<entry endPc="268439826" name="dayWeekStr" stackId="12" startPc="268439225"/>
+<entry endPc="268439826" name="minString" stackId="6" startPc="268439225"/>
+<entry endPc="268439826" name="monthStr" stackId="10" startPc="268439225"/>
+<entry endPc="268439826" name="stepStr" stackId="2" startPc="268439225"/>
+<entry endPc="268439919" name="settings" stackId="2" startPc="268439839"/>
+<entry endPc="268439920" name="hour" stackId="1" startPc="268439827"/>
+<entry endPc="268439995" name="settings" stackId="2" startPc="268439932"/>
+<entry endPc="268439996" name="hour" stackId="1" startPc="268439920"/>
+<entry endPc="268440081" name="imeridiam" stackId="8" startPc="268439996"/>
+<entry endPc="268440081" name="ihourString" stackId="1" startPc="268439996"/>
+<entry endPc="268440081" name="idayStr" stackId="7" startPc="268439996"/>
+<entry endPc="268440081" name="idayWeekStr" stackId="4" startPc="268439996"/>
+<entry endPc="268440081" name="iyearStr" stackId="5" startPc="268439996"/>
+<entry endPc="268440081" name="isecString" stackId="3" startPc="268439996"/>
+<entry endPc="268440081" name="imonthStr" stackId="6" startPc="268439996"/>
+<entry endPc="268440081" name="iminString" stackId="2" startPc="268439996"/>
+<entry endPc="268440274" name="dc" stackId="1" startPc="268440216"/>
+<entry endPc="268440304" name="dc" stackId="1" startPc="268440279"/>
+<entry endPc="268440393" name="dateTime" stackId="2" startPc="268440325"/>
+<entry endPc="268440397" name="dc" stackId="1" startPc="268440304"/>
+<entry endPc="268440485" name="dc" stackId="1" startPc="268440456"/>
+<entry endPc="268440530" name="x_" stackId="1" startPc="268440485"/>
+<entry endPc="268440530" name="y_" stackId="2" startPc="268440485"/>
+<entry endPc="268440530" name="notificationIconGrey_" stackId="4" startPc="268440485"/>
+<entry endPc="268440530" name="notificationIconBlack_" stackId="3" startPc="268440485"/>
+<entry endPc="268440596" name="dc" stackId="1" startPc="268440530"/>
+<entry endPc="268440632" name="settings" stackId="1" startPc="268440600"/>
+<entry endPc="268440944" name="stepX_" stackId="2" startPc="268440637"/>
+<entry endPc="268440944" name="dateY_" stackId="4" startPc="268440637"/>
+<entry endPc="268440944" name="stepY_" stackId="3" startPc="268440637"/>
+<entry endPc="268440944" name="dayX_" stackId="7" startPc="268440637"/>
+<entry endPc="268440944" name="dayY_" stackId="6" startPc="268440637"/>
+<entry endPc="268440944" name="dateX_" stackId="5" startPc="268440637"/>
+<entry endPc="268440945" name="options" stackId="1" startPc="268440633"/>
+<entry endPc="268441040" name="dateTime" stackId="2" startPc="268440949"/>
+<entry endPc="268441041" name="dc" stackId="1" startPc="268440945"/>
+<entry endPc="268441132" name="dc" stackId="1" startPc="268441041"/>
+<entry endPc="268441132" name="stepStr" stackId="2" startPc="268441041"/>
+<entry endPc="268441291" name="dc" stackId="1" startPc="268441132"/>
+<entry endPc="268441291" name="monthStr" stackId="3" startPc="268441132"/>
+<entry endPc="268441291" name="dayStr" stackId="2" startPc="268441132"/>
+<entry endPc="268441291" name="dayWeekStr" stackId="4" startPc="268441132"/>
+<entry endPc="268441336" name="bluetoothIconGrey_" stackId="4" startPc="268441291"/>
+<entry endPc="268441336" name="x_" stackId="1" startPc="268441291"/>
+<entry endPc="268441336" name="y_" stackId="2" startPc="268441291"/>
+<entry endPc="268441336" name="bluetoothIconBlack_" stackId="3" startPc="268441291"/>
+<entry endPc="268441432" name="state" stackId="2" startPc="268441340"/>
+<entry endPc="268441433" name="dc" stackId="1" startPc="268441336"/>
+<entry endPc="268441562" name="bluetoothState" stackId="3" startPc="268441468"/>
+<entry endPc="268441602" name="settings" stackId="1" startPc="268441437"/>
+<entry endPc="268441602" name="state" stackId="2" startPc="268441437"/>
+<entry endPc="268442377" name="notificationIconGrey" stackId="14" startPc="268441607"/>
+<entry endPc="268442377" name="alarmIconGrey" stackId="16" startPc="268441607"/>
+<entry endPc="268442377" name="alarmY" stackId="10" startPc="268441607"/>
+<entry endPc="268442377" name="width" stackId="2" startPc="268441607"/>
+<entry endPc="268442377" name="batteryX" stackId="6" startPc="268441607"/>
+<entry endPc="268442377" name="alarmX" stackId="9" startPc="268441607"/>
+<entry endPc="268442377" name="margin" stackId="4" startPc="268441607"/>
+<entry endPc="268442377" name="alarmIconBlack" stackId="15" startPc="268441607"/>
+<entry endPc="268442377" name="bluetoothIconBlack" stackId="11" startPc="268441607"/>
+<entry endPc="268442377" name="y" stackId="5" startPc="268441607"/>
+<entry endPc="268442377" name="bluetoothIconGrey" stackId="12" startPc="268441607"/>
+<entry endPc="268442377" name="height" stackId="3" startPc="268441607"/>
+<entry endPc="268442377" name="notificationIconBlack" stackId="13" startPc="268441607"/>
+<entry endPc="268442377" name="blueToothX" stackId="7" startPc="268441607"/>
+<entry endPc="268442377" name="notificationX" stackId="8" startPc="268441607"/>
+<entry endPc="268442378" name="options" stackId="1" startPc="268441603"/>
+<entry endPc="268442463" name="dc" stackId="1" startPc="268442378"/>
+<entry endPc="268442503" name="state" stackId="1" startPc="268442486"/>
+<entry endPc="268442508" name="state" stackId="1" startPc="268442503"/>
+<entry endPc="268442873" name="sm" stackId="1" startPc="268442587"/>
+<entry endPc="268442919" name="x_" stackId="1" startPc="268442874"/>
+<entry endPc="268442919" name="y_" stackId="2" startPc="268442874"/>
+<entry endPc="268442919" name="alarmIconBlack_" stackId="3" startPc="268442874"/>
+<entry endPc="268442919" name="alarmIconGrey_" stackId="4" startPc="268442874"/>
+<entry endPc="268443012" name="dc" stackId="1" startPc="268442919"/>
+<entry endPc="268443042" name="settings" stackId="1" startPc="268443016"/>
+<entry endPc="268443274" name="rez_cmp_local_custom_drawable_MainBack" stackId="2" startPc="268443055"/>
+<entry endPc="268443274" name="rez_cmp_local_custom_drawable_TopContent" stackId="3" startPc="268443055"/>
+<entry endPc="268443274" name="rez_cmp_local_custom_drawable_TimeDrawable" stackId="5" startPc="268443055"/>
+<entry endPc="268443274" name="rez_cmp_local_custom_drawable_DateDrawable" stackId="4" startPc="268443055"/>
+<entry endPc="268443275" name="dc" stackId="1" startPc="268443043"/>
+</localVars>
+<annotations/>
+<dataEntryOffsetMappings>
+<dataEntry offset="95" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="270" parentId="globals" symbolId="BluetoothUi" type="class"/>
+<dataEntry offset="389" parentId="globals" symbolId="TimeDrawableVivoHR" type="class"/>
+<dataEntry offset="500" parentId="globals" symbolId="DigitalWatchView" type="class"/>
+<dataEntry offset="619" parentId="globals" symbolId="DateDrawable" type="class"/>
+<dataEntry offset="762" parentId="globals" symbolId="BatteryUi" type="class"/>
+<dataEntry offset="849" parentId="globals" symbolId="DateTimeBuilder" type="module"/>
+<dataEntry offset="912" parentId="DateTimeBuilder" symbolId="DateTime" type="class"/>
+<dataEntry offset="1087" parentId="globals" symbolId="MainBack" type="class"/>
+<dataEntry offset="1246" parentId="globals" symbolId="TimeDrawable" type="class"/>
+<dataEntry offset="1373" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="1452" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="1539" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="1570" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="1641" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="1680" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="1711" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1846" parentId="globals" symbolId="TopContent" type="class"/>
+<dataEntry offset="1949" parentId="globals" symbolId="AlarmUi" type="class"/>
+<dataEntry offset="2044" parentId="globals" symbolId="DigitalWatchApp" type="class"/>
+<dataEntry offset="2131" parentId="globals" symbolId="NotificationUi" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="MainBack">
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="MainBack">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="TimeDrawable">
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="TimeDrawable">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawSeconds" parent="TimeDrawable">
+<param id="dc"/>
+<param id="sec"/>
+<param id="isPartialUpdate"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" name="&lt;globals/TimeDrawable/&lt;&gt;drawTime&gt;" parent="TimeDrawable">
+<param id="dc"/>
+<param id="hour"/>
+<param id="minute"/>
+<param id="sec"/>
+<param id="meridiam"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" name="&lt;globals/TimeDrawable/&lt;&gt;margin&gt;" parent="TimeDrawable">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="TimeDrawableVivoHR">
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="TimeDrawableVivoHR">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawSeconds" parent="TimeDrawableVivoHR">
+<param id="dc"/>
+<param id="sec"/>
+<param id="isPartialUpdate"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" name="&lt;globals/TimeDrawableVivoHR/&lt;&gt;drawTime&gt;" parent="TimeDrawableVivoHR">
+<param id="dc"/>
+<param id="hour"/>
+<param id="minute"/>
+<param id="sec"/>
+<param id="meridiam"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" name="&lt;globals/TimeDrawableVivoHR/&lt;&gt;margin&gt;" parent="TimeDrawableVivoHR">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="BatteryUi">
+<param id="x_"/>
+<param id="y_"/>
+<param id="width_"/>
+<param id="height_"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="BatteryUi">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="build" parent="DateTimeBuilder">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calculateHour" parent="DateTimeBuilder">
+<param id="hour"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calculateMeridiam" parent="DateTimeBuilder">
+<param id="hour"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DateTime">
+<param id="ihourString"/>
+<param id="iminString"/>
+<param id="isecString"/>
+<param id="idayWeekStr"/>
+<param id="iyearStr"/>
+<param id="imonthStr"/>
+<param id="idayStr"/>
+<param id="imeridiam"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getHour" parent="DateTime">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getMinutes" parent="DateTime">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getSeconds" parent="DateTime">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getDayOfWeek" parent="DateTime">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getStep" parent="DateTime">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getMonth" parent="DateTime">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getDay" parent="DateTime">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getMeridiam" parent="DateTime">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DigitalWatchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="DigitalWatchView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="DigitalWatchView">
+<documentation><![CDATA[<div class="description"> Called when this View is brought to the foreground. Restore<br/> the state of this View and prepare it to be shown. This includes<br/> loading resources into memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="DigitalWatchView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onPartialUpdate" parent="DigitalWatchView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="DigitalWatchView">
+<documentation><![CDATA[<div class="description"> Called when this View is removed from the screen. Save the<br/> state of this View here. This includes freeing resources from<br/> memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="DigitalWatchView">
+<documentation><![CDATA[<div class="description"> The user has just looked at their watch. Timers and animations may be started here.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="DigitalWatchView">
+<documentation><![CDATA[<div class="description"> Terminate any active timers and prepare for slow updates.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="margin" parent="DigitalWatchView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="NotificationUi">
+<param id="x_"/>
+<param id="y_"/>
+<param id="notificationIconBlack_"/>
+<param id="notificationIconGrey_"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="NotificationUi">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" name="&lt;globals/NotificationUi/&lt;&gt;notificationState&gt;" parent="NotificationUi">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DateDrawable">
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="DateDrawable">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" name="&lt;globals/DateDrawable/&lt;&gt;drawStep&gt;" parent="DateDrawable">
+<param id="dc"/>
+<param id="stepStr"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" name="&lt;globals/DateDrawable/&lt;&gt;drawDate&gt;" parent="DateDrawable">
+<param id="dc"/>
+<param id="dayStr"/>
+<param id="monthStr"/>
+<param id="dayWeekStr"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="BluetoothUi">
+<param id="x_"/>
+<param id="y_"/>
+<param id="bluetoothIconBlack_"/>
+<param id="bluetoothIconGrey_"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="BluetoothUi">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" name="&lt;globals/BluetoothUi/&lt;&gt;bluetoothState&gt;" parent="BluetoothUi">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="TopContent">
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="TopContent">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DigitalWatchApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="DigitalWatchApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="DigitalWatchApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="DigitalWatchApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSettingsChanged" parent="DigitalWatchApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getSettings" parent="DigitalWatchApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="AlarmUi">
+<param id="x_"/>
+<param id="y_"/>
+<param id="alarmIconBlack_"/>
+<param id="alarmIconGrey_"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="AlarmUi">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" name="&lt;globals/AlarmUi/&lt;&gt;alarmState&gt;" parent="AlarmUi">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
