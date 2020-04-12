@@ -62,7 +62,7 @@ class MainBack extends WatchUi.Drawable {
 		
 		
 		// Clear the screen
-		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
+		dc.setColor(colorBackground, Gfx.COLOR_BLACK);
 		dc.fillRectangle(0,0,width, height);
 		
 		if(banner){
@@ -88,11 +88,11 @@ class MainBack extends WatchUi.Drawable {
 		}
 		
 		// Split top
-		dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_WHITE);
+		dc.setColor(colorLine, Gfx.COLOR_WHITE);
 		dc.fillRectangle(0,splitTopY,dc.getWidth(), splitHeight);
 		
 		// Split bottom
-		dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_WHITE);
+		dc.setColor(colorLine, Gfx.COLOR_WHITE);
 		dc.fillRectangle(0,splitBottonY,dc.getWidth(), splitHeight);
 	
 	}

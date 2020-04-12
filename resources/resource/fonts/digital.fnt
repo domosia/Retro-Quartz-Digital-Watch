@@ -2,7 +2,6 @@ info face="Digital Dismay" size=75 bold=0 italic=0 charset="" unicode=1 stretchH
 common lineHeight=90 base=72 scaleW=256 scaleH=256 pages=4 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
 page id=0 file="digital_0.png"
 chars count=12
-char id=45   x=0     y=240   width=42    height=9     xoffset=5     yoffset=38    xadvance=56    page=0  chnl=15
 char id=48   x=29    y=60    width=28    height=59    xoffset=0     yoffset=13    xadvance=32    page=0  chnl=15
 char id=49   x=0     y=0     width=28    height=59    xoffset=0     yoffset=13    xadvance=32    page=0  chnl=15
 char id=50   x=29    y=0     width=28    height=59    xoffset=0     yoffset=13    xadvance=32    page=0  chnl=15

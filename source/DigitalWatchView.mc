@@ -26,22 +26,16 @@ class DigitalWatchView extends WatchUi.WatchFace {
 
 	//! Update the view
 	function onUpdate(dc) {
-			View.onUpdate(dc);
+		View.onUpdate(dc);
 	}
-	
-	function drawTopGuiLine(dc){
-		//Guide Lines
-		dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
-		dc.drawLine(0  , (dc.getHeight()/6) + 5  , dc.getWidth()    , (dc.getHeight()/6) + 5 );
-		dc.drawLine(0  , (dc.getHeight()/6) + 27  , dc.getWidth()    , (dc.getHeight()/6) + 27 );
-	}
-	
 	
 	function onPartialUpdate(dc){
 		// show sec
-		sleepMode = true;
-		var dateTime = DateTimeBuilder.build();
-		layouts[3].drawSeconds(dc,dateTime.getSeconds(),true);
+		if (gp == 0) {
+			sleepMode = true;
+			var dateTime = DateTimeBuilder.build();
+			layouts[2].drawSeconds(dc,dateTime.getSeconds(),true);
+		}
 	}
 	
 

@@ -13,6 +13,22 @@ char id=54   x=78    y=0     width=12    height=21    xoffset=0     yoffset=5   
 char id=55   x=91    y=0     width=12    height=21    xoffset=0     yoffset=5     xadvance=14    page=0  chnl=15
 char id=56   x=104   y=0     width=12    height=21    xoffset=0     yoffset=5     xadvance=14    page=0  chnl=15
 char id=57   x=117   y=0     width=12    height=21    xoffset=0     yoffset=5     xadvance=14    page=0  chnl=15
+char id=75   x=143   y=0     width=12    height=21    xoffset=0     yoffset=5     xadvance=14    page=0  chnl=15
+char id=77   x=156   y=0     width=12    height=21    xoffset=0     yoffset=5     xadvance=14    page=0  chnl=15
+
+char id=65   x=0     y=24   width=29    height=17    xoffset=0     yoffset=7     xadvance=32    page=0  chnl=15
+char id=66   x=30    y=24   width=29    height=17    xoffset=0     yoffset=7     xadvance=32    page=0  chnl=15
+char id=67   x=60    y=24   width=29    height=17    xoffset=0     yoffset=7     xadvance=32    page=0  chnl=15
+char id=68   x=90    y=24   width=29    height=17    xoffset=0     yoffset=7     xadvance=32    page=0  chnl=15
+char id=69   x=120   y=24   width=29    height=17    xoffset=0     yoffset=7     xadvance=32    page=0  chnl=15
+char id=70   x=150   y=24   width=29    height=17    xoffset=0     yoffset=7     xadvance=32    page=0  chnl=15
+char id=71   x=180   y=24   width=29    height=17    xoffset=0     yoffset=7     xadvance=32    page=0  chnl=15
+
+char id=72   x=0     y=47   width=10    height=15    xoffset=0     yoffset=7     xadvance=13    page=0  chnl=15
+char id=73   x=11    y=47   width=16    height=16    xoffset=0     yoffset=7     xadvance=19    page=0  chnl=15
+char id=74   x=28    y=47   width=16    height=16    xoffset=0     yoffset=7     xadvance=19    page=0  chnl=15
+
+
 char id=97   x=0     y=156   width=20    height=19    xoffset=0     yoffset=5     xadvance=22    page=0  chnl=15
 char id=98   x=26    y=156   width=20    height=19    xoffset=0     yoffset=5     xadvance=22    page=0  chnl=15
 char id=99   x=52    y=156   width=20    height=19    xoffset=0     yoffset=5     xadvance=22    page=0  chnl=15

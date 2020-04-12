@@ -7,11 +7,6 @@ using Toybox.ActivityMonitor;
 module DateTimeBuilder{
 
 	function build(){
-		var day_of_week_array = ["", "SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
-		
-		var stepStr = Lang.format("$1$", [ActivityMonitor.getInfo().steps]);
-		
-		
 		var clockTime = System.getClockTime();
 		var hour = clockTime.hour;
 		var hourString = Lang.format("$1$", [calculateHour(hour)]);
@@ -27,7 +22,7 @@ module DateTimeBuilder{
 		var dayWeekStr = day_of_week_array[Calendar.info(now, Time.FORMAT_SHORT).day_of_week];
 		
 		return new DateTime(hourString,minString,secString,
-		dayWeekStr,stepStr,monthStr,dayStr,calculateMeridiam(hour));
+		dayWeekStr,monthStr,dayStr,calculateMeridiam(hour));
 	}
 	
 	function calculateHour(hour){
@@ -58,18 +53,16 @@ module DateTimeBuilder{
 		private var secString;
 
 		private var monthStr;
-		private var stepStr;
 		private var dayStr;
 		private var dayWeekStr;
 		private var meridiam;
 		
 		function initialize(ihourString,iminString,isecString,
-			idayWeekStr,iyearStr,imonthStr,idayStr,imeridiam){
+			idayWeekStr,imonthStr,idayStr,imeridiam){
 			hourString=ihourString;
 			minString=iminString;
 			secString=isecString;
 			dayWeekStr=idayWeekStr;
-			stepStr=iyearStr;
 			monthStr=imonthStr;
 			dayStr=idayStr;
 			meridiam=imeridiam;
@@ -89,10 +82,6 @@ module DateTimeBuilder{
 		
 		function getDayOfWeek(){
 			return dayWeekStr;
-		}
-
-		function getStep(){
-			return stepStr;
 		}
 
 		function getMonth(){

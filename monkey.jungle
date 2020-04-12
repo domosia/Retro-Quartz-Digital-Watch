@@ -1,3 +1,2 @@
 project.manifest = manifest.xml
 
-fr45.excludeAnnotations = $(fr45.excludeAnnotations);DND

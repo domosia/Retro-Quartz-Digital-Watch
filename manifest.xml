@@ -50,10 +50,11 @@
             <iq:product id="vivoactive3mlte"/>
             <iq:product id="vivoactive4"/>
             <iq:product id="vivoactive4s"/>
-            <iq:product id="vivoactive_hr"/>
             <iq:product id="vivolife"/>
         </iq:products>
-        <iq:permissions/>
+        <iq:permissions>
+            <iq:uses-permission id="SensorHistory"/>
+        </iq:permissions>
         <iq:languages>
             <iq:language>bul</iq:language>
             <iq:language>ces</iq:language>
