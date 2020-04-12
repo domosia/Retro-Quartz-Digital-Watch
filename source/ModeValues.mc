@@ -37,5 +37,3 @@ var colorLine = 0;
 var colorInactive = 0;
 var colorDnd = 0;
 var colorBattery = 0;
-
-var secXPosition;

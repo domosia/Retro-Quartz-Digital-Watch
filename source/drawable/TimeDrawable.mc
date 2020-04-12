@@ -8,6 +8,7 @@ class TimeDrawable extends WatchUi.Drawable {
 	private var font2;
 	private var font5;
 	private var meridiamY = 0;
+	private var secXPosition;
 	
 	var paddingY = 0;
 	
@@ -69,8 +70,8 @@ class TimeDrawable extends WatchUi.Drawable {
 		} else {
 			secondsWidth = 0;
 		}
+		var xPosition = dc.getWidth() / 2 - (timeWidth + secondsWidth) / 2 + timeWidth + 1;
 		var yPosition = dc.getHeight()/2 + 3 + paddingY;
-		var xPosition = dc.getWidth() / 2 - (timeWidth + secondsWidth) / 2 + timeWidth;
 		secXPosition =  xPosition + fontSecondsSpaceWidth;
 
 		// Draw Time

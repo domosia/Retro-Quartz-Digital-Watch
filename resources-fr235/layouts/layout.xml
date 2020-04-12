@@ -1,0 +1,17 @@
+<layout id="WatchFace">
+	<drawable id="MainBack" class="MainBack">
+		<param name="bannerTop">false</param>
+		<param name="splitHeight">6</param>
+		<param name="splitTopY">33</param>
+		<param name="splitBottonY">112</param>
+	</drawable>
+	<drawable id="DateDrawable" class="DateDrawable">
+		<param name="dayX">175</param>
+		<param name="dayY">0</param>
+		<param name="dateY">116</param>
+	</drawable>
+	<drawable id="TimeDrawable" class="TimeDrawable">
+		<param name="paddingY">-16</param>
+		<param name="meridiamY">-22</param>
+	</drawable>
+</layout>
