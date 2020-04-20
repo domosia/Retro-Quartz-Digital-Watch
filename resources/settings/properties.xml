@@ -13,14 +13,17 @@
 
 	<property id="alignCenter" type="number">0</property>
 
-	<property id="colorTheme" type="number">0</property>
+	<property id="leadingZero" type="boolean">false</property>
 
 	<property id="colorBackground" type="number">0xFFFFFF</property>
 	<property id="colorTime" type="number">0x000000</property>
 	<property id="colorData" type="number">0x000000</property>
-	<property id="colorLine" type="number">0x00AAFF</property>
-	<property id="colorInactive" type="number">0xAAAAAA</property>
-	<property id="colorDnd" type="number">0xFF0000</property>
-	<property id="colorBattery" type="number">0x00AAFF</property>
-	
+	<property id="colorLine" type="number">0x000000</property>
+	<property id="colorInactive" type="number">0xFFFFFF</property>
+	<property id="colorDnd" type="number">0x000000</property>
+	<property id="colorBattery" type="number">0x000000</property>
+	<property id="colorStrings" type="number">0x00AAFF</property>
+	<property id="splitHeight" type="number">2</property>
+
+	<property id="theme" type="number">0</property>
 </properties>

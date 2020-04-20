@@ -12,10 +12,11 @@ class MainBack extends WatchUi.Drawable {
 	private var banner = true;
 	private var bannerTop = true;
 	private var bannerBottom = true;
-	private var splitHeight = 8;
 	private var height = System.getDeviceSettings().screenHeight;
 	private var splitTopY = height-2*(height/3)-5;
 	private var splitBottonY = height-2*(height/6)-3;
+	private var paddingLineY;
+	private var splitHeight_ = null;
 	
 	
 	function initialize(options) {
@@ -38,10 +39,7 @@ class MainBack extends WatchUi.Drawable {
 		if(bannerBottom_ != null) {
 			bannerBottom = bannerBottom_;
 		}
-		var splitHeight_ = options.get(:splitHeight);
-		if(splitHeight_ != null) {
-			splitHeight = splitHeight_;
-		}
+		splitHeight_ = options.get(:splitHeight);
 		var splitTopY_ = options.get(:splitTopY);
 		if(splitTopY_ != null) {
 			splitTopY = splitTopY_;
@@ -72,7 +70,7 @@ class MainBack extends WatchUi.Drawable {
 				dc.fillRectangle(0,0,width, height/6);
 				dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
 				dc.drawText(width/2, 5, font4, label1, Gfx.TEXT_JUSTIFY_CENTER);
-				dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_TRANSPARENT);
+				dc.setColor(colorStrings, Gfx.COLOR_TRANSPARENT);
 				dc.drawText(width/2, 20, font5, label2, Gfx.TEXT_JUSTIFY_CENTER);
 			}
 			
@@ -80,20 +78,26 @@ class MainBack extends WatchUi.Drawable {
 				//Bottom banner
 				dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE);
 				dc.fillRectangle(0,height-(height/6),dc.getWidth(), height/6);
-				dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_TRANSPARENT);
+				dc.setColor(colorStrings, Gfx.COLOR_TRANSPARENT);
 				dc.drawText(width/2, height-32, font5, label3, Gfx.TEXT_JUSTIFY_CENTER);
 				dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
 				dc.drawText(width/2, height-20, font4, label4, Gfx.TEXT_JUSTIFY_CENTER);
 			}
 		}
 		
+		if (splitHeight_ != null) {
+			if (splitHeight == 8) {
+				splitHeight = splitHeight_;
+			}
+		}
+		paddingLineY = 4 - splitHeight / 2;
 		// Split top
 		dc.setColor(colorLine, Gfx.COLOR_WHITE);
-		dc.fillRectangle(0,splitTopY,dc.getWidth(), splitHeight);
+		dc.fillRectangle(0, splitTopY + paddingLineY, dc.getWidth(), splitHeight);
 		
 		// Split bottom
 		dc.setColor(colorLine, Gfx.COLOR_WHITE);
-		dc.fillRectangle(0,splitBottonY,dc.getWidth(), splitHeight);
+		dc.fillRectangle(0, splitBottonY + paddingLineY, dc.getWidth(), splitHeight);
 	
 	}
 }

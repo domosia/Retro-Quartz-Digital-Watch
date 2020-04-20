@@ -115,8 +115,13 @@ class DateDrawable extends WatchUi.Drawable {
 	}
 
 	private function getDataFields(fieldNr) {
+		var settings = Sys.getDeviceSettings();
 		var result = null;
 		switch ( dataFieldsType[fieldNr] ) {
+			case DF_NONE: {
+				result = "";
+				break;
+			}
 			case DF_DATE: {
 				var info = Calendar.info(Time.now(), Time.FORMAT_SHORT);
 				if (dateFormat == 0) {
@@ -125,6 +130,11 @@ class DateDrawable extends WatchUi.Drawable {
 					result = Lang.format("$1$", [info.day.format("%02d")]) + "-" + Lang.format("$1$", [info.month.format("%02d")]);
 				}
 				
+				break;
+			}
+			case DF_YEAR: {
+				var yearStr = Calendar.info(Time.now(), Time.FORMAT_SHORT).year;
+				result = Lang.format("$1$", [yearStr]);
 				break;
 			}
 			case DF_WEEKDAYS: {
@@ -156,6 +166,31 @@ class DateDrawable extends WatchUi.Drawable {
 			}
 			case DF_DISTANCE: {
 				result = Lang.format("$1$", [ActivityMonitor.getInfo().distance]);
+				break;
+			}
+			case DF_ALTITUDE: {
+				var activityInfo = Activity.getActivityInfo();
+				var altitude = activityInfo.altitude;
+				var sample;
+				if ((altitude == null) && (Toybox has :SensorHistory) && (Toybox.SensorHistory has :getElevationHistory)) {
+					sample = SensorHistory.getElevationHistory({ :period => 1, :order => SensorHistory.ORDER_NEWEST_FIRST })
+						.next();
+					if ((sample != null) && (sample.data != null)) {
+						altitude = sample.data;
+					}
+				}
+				if (altitude != null) {
+
+					// Metres (no conversion necessary).
+					if (settings.elevationUnits == System.UNIT_METRIC) {
+
+					// Feet.
+					} else {
+						altitude *= /* FT_PER_M */ 3.28084;
+					}
+
+					result = altitude.format("%d");
+				}
 				break;
 			}
 		}

@@ -1,3 +1,4 @@
+const DF_NONE		= 0;
 const DF_DATE		= 1;
 const DF_WEEKDAYS	= 2;
 const DF_STEPS		= 3;
@@ -5,6 +6,7 @@ const DF_HR			= 4;
 const DF_CALORIES	= 5;
 const DF_DISTANCE	= 6;
 const DF_ALTITUDE	= 7;
+const DF_YEAR		= 8;
 const day_of_week_array = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 
 const fontTimeWidth = 28;
@@ -20,6 +22,7 @@ const fontSecondsSpaceWidth = 7;
 var sleepMode = false;
 // 0: sec always on
 // 1: sec off
+// 2: sec olways off
 var gp = 0;
 // second type on sleep mode
 var secHidden = null;
@@ -27,6 +30,7 @@ var secHidden = null;
 // 1: dd-mm
 var dateFormat = 0;
 var timeCenter = 0;
+var leadingZero = false;
 
 var dataFieldsType = new [4];
 
@@ -37,3 +41,7 @@ var colorLine = 0;
 var colorInactive = 0;
 var colorDnd = 0;
 var colorBattery = 0;
+var colorStrings = 0;
+var splitHeight = 8;
+
+var test;

@@ -48,7 +48,7 @@ class TimeDrawable extends WatchUi.Drawable {
 					// firs digit is 1
 					timeWidth = fontTime1Width + fontTimeWidth * 3 + fontTimeSpaceWidth * 2 + fontSeparatorWidth;
 				} else {
-					// first digit is 2 or 0
+					// first digit is not 1
 					timeWidth = fontTimeWidth * 4 + fontTimeSpaceWidth * 2 + fontSeparatorWidth;
 				}
 			} else {
@@ -57,7 +57,7 @@ class TimeDrawable extends WatchUi.Drawable {
 					// firs digit is 1
 					timeWidth = fontTime1Width + fontTimeWidth * 2 + fontTimeSpaceWidth * 2 + fontSeparatorWidth;
 				} else {
-					// first digit is 2 or 0
+					// first digit is not 1
 					timeWidth = fontTimeWidth * 3 + fontTimeSpaceWidth * 2 + fontSeparatorWidth;
 				}
 			}
@@ -65,7 +65,7 @@ class TimeDrawable extends WatchUi.Drawable {
 		var secondsWidth;
 		if (gp == 2) {
 			secondsWidth = 0;
-		} else if ((gp < 2 and !sleepMode) or (sleepMode and secHidden != null) or (gp == 0 and partialUpdateDevice)) {
+		} else if (!sleepMode or (sleepMode and secHidden != null) or (gp == 0 and partialUpdateDevice) or (timeCenter == 0)) {
 			secondsWidth = fontSecondsWidth + fontSecondsSpaceWidth;
 		} else {
 			secondsWidth = 0;

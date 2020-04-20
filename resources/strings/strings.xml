@@ -5,12 +5,14 @@
 	<string id="Label3">WATER RESIST</string>
 	<string id="Label4">100M</string>
 
-	<string id="powerModeSettings">Power safe mode</string>
+	<string id="powerModeSettings">Power saving mode</string>
 	<string id="pm0">Off</string>
 	<string id="pm1">On</string>
 	<string id="pm2">Full (no seconds)</string>
 
-	<string id="secModeSettings">Seconds on power safe mode</string>
+	<string id="leadingZeroSettings">Show Hours Leading Zero</string>
+
+	<string id="secModeSettings">Seconds on power saving mode</string>
 	<string id="sm0">--</string>
 	<string id="sm1">None</string>
 	<string id="sm2">Lite</string>
@@ -18,12 +20,15 @@
 	<string id="dataFieldSettings1">Right up field type</string>
 	<string id="dataFieldSettings2">Left down field type</string>
 	<string id="dataFieldSettings3">Right down field type</string>
+	<string id="df0">None</string>
 	<string id="df1">Date</string>
 	<string id="df2">Weekdays</string>
+	<string id="df8">Year</string>
 	<string id="df3">Steps</string>
 	<string id="df4">Heart rate</string>
 	<string id="df5">Calories</string>
 	<string id="df6">Distance</string>
+	<string id="df7">Altitude</string>
 
 	<string id="dateFormatSettings">Date format</string>
 	<string id="dateFormat0">mm-dd</string>
@@ -36,10 +41,11 @@
 	<string id="colorBackgroundSettings">Background color</string>
 	<string id="colorTimeSettings">Time color</string>
 	<string id="colorDataSettings">Data fields color</string>
-	<string id="colorLineSettings">Line color</string>
+	<string id="colorLineSettings">Split line color</string>
 	<string id="colorInactiveSettings">Inactive color</string>
 	<string id="colorDndSettings">Do not disturb color (if available)</string>
 	<string id="colorBatterySettings">Battery level color</string>
+	<string id="colorStringsSettings">Strings color</string>
 	
 	<string id="color0">White</string>
 	<string id="color1">Light Gray</string>
@@ -54,5 +60,18 @@
 	<string id="color10">Blue</string>
 	<string id="color11">Dark Blue</string>
 	<string id="color12">Pink</string>
+
+	<string id="splitHeightSettings">Split Line style</string>
+	<string id="splitHeight0">Thin</string>
+	<string id="splitHeight1">Normal</string>
+	<string id="splitHeight2">Bold</string>
+
+	<string id="themeSettings">Theme</string>
+	<string id="theme0">Select a theme...</string>
+	<string id="theme1">Quartz</string>
+	<string id="theme2">Blue line</string>
+	<string id="theme3">Inverse</string>
+	<string id="theme4">Orange line</string>
+	<string id="theme5">Orange background</string>
 
 </strings>
