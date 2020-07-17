@@ -112,6 +112,7 @@ class DigitalWatchApp extends App.AppBase {
 		dateFormat = getProperty("dateFormat");
 		weekdayLang = getProperty("weekdayLang");
 		timeFormat = getProperty("timeFormat");
+		secondTime = getProperty("secondTime");
 		batteryFormat = getProperty("batteryFormat");
 		leadingZero = getProperty("leadingZero");
 		dataFieldsType [1] = getProperty("dfMode1");

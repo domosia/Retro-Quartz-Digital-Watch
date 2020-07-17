@@ -31,6 +31,7 @@
 
 	<property id="leadingZero" type="boolean">false</property>
 	<property id="timeFormat" type="number">0</property>
+	<property id="secondTime" type="number">0</property>
 
 	<property id="colorBackground" type="number">0xFFFFFF</property>
 	<property id="colorTime" type="number">0x000000</property>

@@ -1,7 +1,6 @@
 using Toybox.System as Sys;
 using Toybox.Graphics as Gfx;
 using Toybox.WatchUi;
-using Toybox.System as Sys;
 
 class TimeDrawable extends WatchUi.Drawable {
 	private var partialUpdateDevice = (Toybox.WatchUi.WatchFace has :onPartialUpdate);

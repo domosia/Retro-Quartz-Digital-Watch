@@ -46,6 +46,7 @@
 	<string id="df7">Altitude</string>
 	<string id="df9">Weather (OWM api key required)</string>
 	<string id="df10">Default banner</string>
+	<string id="df11">Second time</string>
 	
 	<string id="showBatterySettings">Show battery icon</string>
 	<string id="showBluetoothSettings">Show bluetooth icon</string>
@@ -75,6 +76,8 @@
 	<string id="timeFormatSettings">Time format</string>
 	<string id="timeFormat0">24 hour</string>
 	<string id="timeFormat1">12 hour</string>
+
+	<string id="secondTimeSettings" scope="foreground">Time zone ±UTC (minutes)</string>
 
 	<string id="alignCenterSettings">Time centering</string>
 	<string id="alignCenter0">Classic quartz</string>

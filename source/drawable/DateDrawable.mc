@@ -270,6 +270,16 @@ class DateDrawable extends WatchUi.Drawable {
 				}
 				break;
 			}
+			case DF_SECONDTIME: {
+				var offset = secondTime*60 - System.getClockTime().timeZoneOffset;
+				var dur = new Time.Duration(offset);
+				var clockTime = Calendar.info(Time.now().add(dur), Time.FORMAT_SHORT);
+				result = clockTime.hour + ":" + Lang.format("$1$", [ clockTime.min.format("%02d")]);
+
+
+
+				break;
+			}
 			case DF_DEFAULT: {
 				result = "";
 				break;

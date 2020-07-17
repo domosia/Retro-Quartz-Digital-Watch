@@ -9,6 +9,7 @@ const DF_ALTITUDE		= 7;
 const DF_YEAR			= 8;
 const DF_TEMP			= 9;
 const DF_DEFAULT		= 10;
+const DF_SECONDTIME		= 11;
 
 const weatherIconTable = {
 	"01d" => 'V',
@@ -56,6 +57,7 @@ var timeFormat = 0;
 var batteryFormat = 0;
 var timeCenter = 0;
 var leadingZero = false;
+var secondTime;
 
 // Weather
 var showWeather = false;

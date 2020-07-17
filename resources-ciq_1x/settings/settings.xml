@@ -69,6 +69,10 @@
 		</settingConfig>
 	</setting>
 
+	<setting propertyKey="@Properties.secondTime" title="@Strings.secondTimeSettings">
+		<settingConfig type="numeric" min="-720" max="840"/>
+	</setting>
+
 	<setting propertyKey="@Properties.leadingZero" title="@Strings.leadingZeroSettings">
 		<settingConfig type="boolean"/>
 	</setting>
@@ -83,6 +87,7 @@
 			<listEntry value="4">@Strings.df4</listEntry>
 			<listEntry value="5">@Strings.df5</listEntry>
 			<listEntry value="7">@Strings.df7</listEntry>
+			<listEntry value="11">@Strings.df11</listEntry>
 		</settingConfig>
 	</setting>
 
@@ -96,6 +101,7 @@
 			<listEntry value="4">@Strings.df4</listEntry>
 			<listEntry value="5">@Strings.df5</listEntry>
 			<listEntry value="7">@Strings.df7</listEntry>
+			<listEntry value="11">@Strings.df11</listEntry>
 		</settingConfig>
 	</setting>
 
@@ -109,6 +115,7 @@
 			<listEntry value="4">@Strings.df4</listEntry>
 			<listEntry value="5">@Strings.df5</listEntry>
 			<listEntry value="7">@Strings.df7</listEntry>
+			<listEntry value="11">@Strings.df11</listEntry>
 		</settingConfig>
 	</setting>
 
@@ -123,6 +130,7 @@
 			<listEntry value="4">@Strings.df4</listEntry>
 			<listEntry value="5">@Strings.df5</listEntry>
 			<listEntry value="7">@Strings.df7</listEntry>
+			<listEntry value="11">@Strings.df11</listEntry>
 		</settingConfig>
 	</setting>
 
@@ -137,6 +145,7 @@
 			<listEntry value="4">@Strings.df4</listEntry>
 			<listEntry value="5">@Strings.df5</listEntry>
 			<listEntry value="7">@Strings.df7</listEntry>
+			<listEntry value="11">@Strings.df11</listEntry>
 		</settingConfig>
 	</setting>
 
