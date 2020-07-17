@@ -1,16 +1,22 @@
 using Toybox.Graphics as Gfx;
 using Toybox.Application as App;
+using Toybox.Background as Bg;
 using Toybox.WatchUi as Ui;
+using Toybox.System as Sys;
+using Toybox.Time;
 
+(:background)
 class DigitalWatchApp extends App.AppBase {
 
+	var mView;
+
 	function initialize() {
+		getSettings();
 		AppBase.initialize();
 	}
 
 	// onStart() is called on application start up
 	function onStart(state) {
-		getSettings();
 	}
 
 	// onStop() is called when your application is exiting
@@ -19,87 +25,136 @@ class DigitalWatchApp extends App.AppBase {
 
 	// Return the initial view of your application here
 	function getInitialView() {
-		return [ new DigitalWatchView() ];
+		mView = new DigitalWatchView();
+		return [ mView ];
 	} 
+
+	(:background_method)
+	function getServiceDelegate() {
+		return [new BackgroundService()];
+	}
+
+	(:background_method)
+    function onBackgroundData(data) {
+    	if (data != null) { 
+	    	weatherTemp = data["temp"];
+	    	weatherIcon = data["icon"];
+	    	setProperty("weatherTemp", weatherTemp);
+	    	setProperty("weatherIcon", weatherIcon);
+	    	setProperty("weatherLastTime", Time.now().value());
+		}
+		
+		startBackgroundService(false);
+    }
 
 	function onSettingsChanged() {
 		getSettings();
+		startBackgroundService(true);
 		Ui.requestUpdate();
 	}
 	
+	function startBackgroundService(noBackground) {
+		if (!showWeather) {
+			return;
+		}
+
+		if (!(Sys has :ServiceDelegate)) {
+			return;
+		}
+		
+		//Sys.println("Starting background");
+		
+		if (noBackground) {
+    		getLocation();
+    	}
+	    
+	    if (locationLat == 1000) {
+	    	//Sys.println("no position");
+	    	return;
+	    }
+	    
+		var lastTime = Background.getLastTemporalEventTime();
+		var duration = new Time.Duration(600);
+		var now = Time.now();
+		if (lastTime == null){
+			//////////////////////////////////////////////////////////
+			//DEBUG
+			//System.println("reg ev now 1");
+			//////////////////////////////////////////////////////////
+			Background.registerForTemporalEvent(now);
+		}else{
+			if (now.greaterThan(lastTime.add(duration))){
+				//////////////////////////////////////////////////////////
+				//DEBUG
+				//System.println("reg ev now 2");
+				//////////////////////////////////////////////////////////
+				Background.registerForTemporalEvent(now);
+			}else{
+			    var nextTime = lastTime.add(duration);
+				//////////////////////////////////////////////////////////
+				//DEBUG
+			    //System.println("reg ev "+nextTime.value());
+				//////////////////////////////////////////////////////////
+			    Background.registerForTemporalEvent(nextTime);
+			}
+		}
+	}
+
 	function getSettings() {
 		var sm = 0;
 		var theme = 0;
-		if (Toybox.Application has :Storage) {
-			gp = Properties.getValue("powerMode");
-			sm = Properties.getValue("secMode");
-			timeCenter = Properties.getValue("alignCenter");
-			dateFormat = Properties.getValue("dateFormat");
-			leadingZero = Properties.getValue("leadingZero");
-			dataFieldsType [1] = Properties.getValue("dfMode1");
-			dataFieldsType [2] = Properties.getValue("dfMode2");
-			dataFieldsType [3] = Properties.getValue("dfMode3");
+		var weekdayLang = 0;
+		gp = getProperty("powerMode");
+		powerDNDMode = getProperty("powerDNDMode");
+		sm = getProperty("secMode");
+		secSize = getProperty("secSize");
+		timeCenter = getProperty("alignCenter");
+		dateFormat = getProperty("dateFormat");
+		weekdayLang = getProperty("weekdayLang");
+		timeFormat = getProperty("timeFormat");
+		batteryFormat = getProperty("batteryFormat");
+		leadingZero = getProperty("leadingZero");
+		dataFieldsType [1] = getProperty("dfMode1");
+		dataFieldsType [2] = getProperty("dfMode2");
+		dataFieldsType [3] = getProperty("dfMode3");
+		dataFieldsType [0] = getProperty("dfMode0");
+		dataFieldsType [4] = getProperty("dfMode4");
 
-			colorBackground = Properties.getValue("colorBackground");
-			colorTime = Properties.getValue("colorTime");
-			colorData = Properties.getValue("colorData");
-			colorLine = Properties.getValue("colorLine");
-			colorInactive = Properties.getValue("colorInactive");
-			colorDnd = Properties.getValue("colorDnd");
-			colorBattery = Properties.getValue("colorBattery");
-			colorStrings = Properties.getValue("colorStrings");
-			splitHeight = Properties.getValue("splitHeight");
-			theme = Properties.getValue("theme");
-			if (theme != 0) {
-				setTheme(theme);
-				Properties.setValue("colorBackground", colorBackground);
-				Properties.setValue("colorTime", colorTime);
-				Properties.setValue("colorData", colorData);
-				Properties.setValue("colorLine", colorLine);
-				Properties.setValue("colorInactive", colorInactive);
-				Properties.setValue("colorDnd", colorDnd);
-				Properties.setValue("colorBattery", colorBattery);
-				Properties.setValue("colorStrings", colorStrings);
-				Properties.setValue("splitHeight", splitHeight);
-
-			}
-			Properties.setValue("theme", 0);
-
-		} else {
-			gp = Application.getApp().getProperty("powerMode");
-			sm = Application.getApp().getProperty("secMode");
-			timeCenter = Application.getApp().getProperty("alignCenter");
-			dateFormat = Application.getApp().getProperty("dateFormat");
-			leadingZero = Application.getApp().getProperty("leadingZero");
-			dataFieldsType [1] = Application.getApp().getProperty("dfMode1");
-			dataFieldsType [2] = Application.getApp().getProperty("dfMode2");
-			dataFieldsType [3] = Application.getApp().getProperty("dfMode3");
+		showBattery = getProperty("showBattery");
+		showBluetooth = getProperty("showBluetooth");
+		showMessages = getProperty("showMessages");
+		showAlarms = getProperty("showAlarms");
+		showDND = getProperty("showDND");
+		locationLat = getProperty("locationLat");
+		locationLon = getProperty("locationLon");
+		weatherOwmKey = getProperty("weatherOwmKey");
+		tempFormat = getProperty("tempFormat");
 			
-			colorBackground = Application.getApp().getProperty("colorBackground");
-			colorTime = Application.getApp().getProperty("colorTime");
-			colorData = Application.getApp().getProperty("colorData");
-			colorLine = Application.getApp().getProperty("colorLine");
-			colorInactive = Application.getApp().getProperty("colorInactive");
-			colorDnd = Application.getApp().getProperty("colorDnd");
-			colorBattery = Application.getApp().getProperty("colorBattery");
-			colorStrings = Application.getApp().getProperty("colorStrings");
-			splitHeight = Application.getApp().getProperty("splitHeight");
-			theme = Application.getApp().getProperty("theme");
-			if (theme != 0) {
-				setTheme(theme);
-				Application.getApp().setProperty("colorBackground", colorBackground);
-				Application.getApp().setProperty("colorTime", colorTime);
-				Application.getApp().setProperty("colorData", colorData);
-				Application.getApp().setProperty("colorLine", colorLine);
-				Application.getApp().setProperty("colorInactive", colorInactive);
-				Application.getApp().setProperty("colorDnd", colorDnd);
-				Application.getApp().setProperty("colorBattery", colorBattery);
-				Application.getApp().setProperty("colorStrings", colorStrings);
-				Application.getApp().setProperty("splitHeight", splitHeight);
-
-			}
-			Application.getApp().setProperty("theme", 0);
-		
+		theme = getProperty("theme");
+		if (theme != 0) {
+			setTheme(theme);
+			setProperty("colorBackground", colorBackground);
+			setProperty("colorTime", colorTime);
+			setProperty("colorData", colorData);
+			setProperty("colorLine", colorLine);
+			setProperty("colorInactive", colorInactive);
+			setProperty("colorDnd", colorDnd);
+			setProperty("colorBattery", colorBattery);
+			setProperty("colorStrings", colorStrings);
+			setProperty("colorBigStrings", colorBigStrings);
+			setProperty("splitHeight", splitHeight);
+			setProperty("theme", 0);
+		} else {
+			colorBackground = getProperty("colorBackground");
+			colorTime = getProperty("colorTime");
+			colorData = getProperty("colorData");
+			colorLine = getProperty("colorLine");
+			colorInactive = getProperty("colorInactive");
+			colorDnd = getProperty("colorDnd");
+			colorBattery = getProperty("colorBattery");
+			colorStrings = getProperty("colorStrings");
+			colorBigStrings = getProperty("colorBigStrings");
+			splitHeight = getProperty("splitHeight");
 		}
 		if (sm == 0) {
 			secHidden = '-';
@@ -108,9 +163,43 @@ class DigitalWatchApp extends App.AppBase {
 		} else {
 			secHidden = '8';
 		}
-		
+		// day of week
+		if (weekdayLang == 1) {
+			day_of_week_array = ["dim", "lun", "mar", "mer", "jeu", "ven", "sam"];
+		} else if (weekdayLang == 2) {
+			day_of_week_array = ["vas", "het", "ked", "sze", "csu", "pen", "szo"];
+		} else if (weekdayLang == 3) {
+			day_of_week_array = ["son", "mon", "die", "mit", "don", "fre", "sam"];
+		} else if (weekdayLang == 4) {
+			day_of_week_array = ["dom", "lun", "mar", "mie", "jue", "vie", "sab"];
+		} else if (weekdayLang == 5) {
+			day_of_week_array = ["dom", "seg", "ter", "qua", "qui", "sex", "sab"];
+		} else if (weekdayLang == 6) {
+			day_of_week_array = ["nie", "pon", "wto", "sro", "czw", "pia", "sob"];
+		} else if (weekdayLang == 7) {
+			day_of_week_array = ["ned", "pon", "ute", "str", "ctv", "pat", "sob"];
+		} else if (weekdayLang == 8) {
+			day_of_week_array = ["ned", "pon", "uto", "str", "stv", "pia", "sob"];
+		} else if (weekdayLang == 9) {
+			day_of_week_array = ["ned", "pon", "uto", "sri", "cet", "pet", "sub"];
+		} else if (weekdayLang == 10) {
+			day_of_week_array = ["dum", "lun", "mar", "mie", "joi", "vin", "sam"];
+		} else if (weekdayLang == 11) {
+			day_of_week_array = ["dom", "lun", "mar", "mer", "gio", "ven", "sab"];
+		} else if (weekdayLang == 12) {
+			day_of_week_array = ["zon", "maa", "din", "woe", "don", "vri", "zat"];
+		} else {
+			day_of_week_array = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+		}
+		// weather
+		showWeather = dataFieldsType[0]==DF_TEMP or
+						dataFieldsType[1]==DF_TEMP or
+						dataFieldsType[2]==DF_TEMP or
+						dataFieldsType[3]==DF_TEMP or
+						dataFieldsType[4]==DF_TEMP;
 	}
 
+	(:background_method)
 	function setTheme(theme) {
 		if (theme == 1) {
 			colorBackground = Gfx.COLOR_WHITE;
@@ -121,6 +210,7 @@ class DigitalWatchApp extends App.AppBase {
 			colorDnd = Gfx.COLOR_BLACK;
 			colorBattery = Gfx.COLOR_BLACK;
 			colorStrings = Gfx.COLOR_BLUE;
+			colorBigStrings = Gfx.COLOR_WHITE;
 			splitHeight = 2;
 		} else if (theme == 2) {
 			colorBackground = Gfx.COLOR_WHITE;
@@ -131,6 +221,7 @@ class DigitalWatchApp extends App.AppBase {
 			colorDnd = Gfx.COLOR_RED;
 			colorBattery = Gfx.COLOR_BLUE;
 			colorStrings = Gfx.COLOR_BLUE;
+			colorBigStrings = Gfx.COLOR_WHITE;
 			splitHeight = 8;
 		} else if (theme == 3) {
 			colorBackground = Gfx.COLOR_BLACK;
@@ -138,9 +229,10 @@ class DigitalWatchApp extends App.AppBase {
 			colorData = Gfx.COLOR_WHITE;
 			colorLine = Gfx.COLOR_WHITE;
 			colorInactive = Gfx.COLOR_BLACK;
-			colorDnd = Gfx.COLOR_RED;
+			colorDnd = Gfx.COLOR_WHITE;
 			colorBattery = Gfx.COLOR_BLUE;
 			colorStrings = Gfx.COLOR_BLUE;
+			colorBigStrings = Gfx.COLOR_WHITE;
 			splitHeight = 2;
 		} else if (theme == 4) {
 			colorBackground = Gfx.COLOR_WHITE;
@@ -151,6 +243,7 @@ class DigitalWatchApp extends App.AppBase {
 			colorDnd = Gfx.COLOR_RED;
 			colorBattery = Gfx.COLOR_GREEN;
 			colorStrings = Gfx.COLOR_ORANGE;
+			colorBigStrings = Gfx.COLOR_WHITE;
 			splitHeight = 8;
 		} else if (theme == 5) {
 			colorBackground = Gfx.COLOR_ORANGE;
@@ -161,8 +254,23 @@ class DigitalWatchApp extends App.AppBase {
 			colorDnd = Gfx.COLOR_RED;
 			colorBattery = Gfx.COLOR_BLUE;
 			colorStrings = Gfx.COLOR_BLUE;
+			colorBigStrings = Gfx.COLOR_WHITE;
 			splitHeight = 8;
 		}
 		
+	}
+
+	function getLocation() {
+		var location = Activity.getActivityInfo().currentLocation;
+		if (location != null) { 
+			location = location.toDegrees();
+			locationLat = location[0].toFloat();
+			locationLon = location[1].toFloat();
+			setProperty("locationLat", locationLat);
+			setProperty("locationLon", locationLon);
+		} else {
+			locationLat = getProperty("locationLat");
+			locationLon = getProperty("locationLon");
+		}
 	}
 }

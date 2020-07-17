@@ -1,3 +1,4 @@
+using Toybox.Application as App;
 using Toybox.Graphics as Gfx;
 using Toybox.WatchUi;
 using Toybox.System as Sys;
@@ -9,107 +10,154 @@ using Toybox.Lang;
 
 class DateDrawable extends WatchUi.Drawable {
 	var font3;
+	var font4;
 	private var height = System.getDeviceSettings().screenHeight;
 	private var width = System.getDeviceSettings().screenWidth;
-	var dayX = width-30;
-	var dayY = (height/6+2);
-	var dateY = 4*(height/6)+6;
-	var dateX = width-30;
-	var stepX = 30;
+
+	var dayX;
+	var dayY;
+	var dateY;
+	var dateX;
+	var stepX;
 	var stepY;
-	var batteryX = 30;
+	var batteryX;
 	var batteryY;
-	var batteryPaddingX = 0;
+	var bannerX;
+	var bannerTopY;
+	var bannerBottomY;
+
 	function initialize(options) {
 		Drawable.initialize(options);
 		font3 = WatchUi.loadResource(Rez.Fonts.id_font_digital_date);
-		var batteryPaddingX_ = options.get(:batteryPaddingX);
-		if (batteryPaddingX_ != null) {
-			batteryPaddingX = batteryPaddingX_;
-		}
-		var stepX_ = options.get(:stepX);
-		if (stepX_ != null) {
-			stepX = stepX_;
-		}
-		var stepY_ = options.get(:stepY);
-		if (stepY_ != null) {
-			stepY = stepY_;
-		}
-		var dateY_ = options.get(:dateY);
-		if (dateY_ != null) {
-			dateY = dateY_;
-		}
-		var dateX_ = options.get(:dateX);
-		if (dateX_ != null) {
-			dateX = dateX_;
-		}
-		var dayY_ = options.get(:dayY);
-		if (dayY_ != null) {
-			dayY = dayY_;
-		}
-		var dayX_ = options.get(:dayX);
-		if (dayX_ != null) {
-			dayX = dayX_;
-		}
+		font4 = WatchUi.loadResource(Rez.Fonts.id_font_digital_date_bat);
+		
+		var marginX = options.get(:marginX);
+		dayX = width-marginX;
+		dayY = (height/6+2);
+		dayY = options.get(:topY);
+		dateY = options.get(:bottomY);
+		dateX = width-marginX;
+		stepX = marginX;
+		batteryX = marginX;
 		stepY = dateY;
 		batteryY = dayY;
+		bannerX = width / 2;
+		bannerTopY = options.get(:bannerTopY);
+		bannerBottomY = options.get(:bannerBottomY);
 	}
 	
 	function draw(dc) {
-		drawDataFields(dc, 0);
+		// batterys
+		drawDataFields(dc, 6);
+		// fields
 		drawDataFields(dc, 1);
 		drawDataFields(dc, 2);
 		drawDataFields(dc, 3);
+		// banner fields
+		if (bannerTop) {
+			drawDataFields(dc, 0);
+		}
+		if (bannerBottom) {
+			drawDataFields(dc, 4);
+		}
 	}
 	
 	private function drawDataFields(dc, fieldNr) {
 		//Draw Data
-		
-		dc.setColor(colorData, Gfx.COLOR_TRANSPARENT);
-		if (fieldNr == 0) {
+		if (fieldNr == 6) {
 			// battery
-			dc.drawText(batteryX, batteryY, font3, "G", Gfx.TEXT_JUSTIFY_LEFT);
-			var batteryMeter = getBattery();
-			if (batteryMeter < 'F') {
-				dc.setColor(colorBattery, Gfx.COLOR_TRANSPARENT);
-			} else {
-				dc.setColor(colorDnd, Gfx.COLOR_TRANSPARENT);
-			}
-			dc.drawText(batteryX, batteryY, font3, batteryMeter, Gfx.TEXT_JUSTIFY_LEFT);
-			dc.setColor(colorData, Gfx.COLOR_TRANSPARENT);
-			// Bluetooth
-			if (getBluetooth()) {
-				dc.drawText(batteryX + 32 - batteryPaddingX, batteryY, font3, "H", Gfx.TEXT_JUSTIFY_LEFT);
-			} else {
-				dc.setColor(colorInactive, Gfx.COLOR_TRANSPARENT);
-				dc.drawText(batteryX + 32 - batteryPaddingX, batteryY, font3, "H", Gfx.TEXT_JUSTIFY_LEFT);
-				dc.setColor(colorData, Gfx.COLOR_TRANSPARENT);
-			}
-			// Notification
-			if (getNotification()) {
-				dc.drawText(batteryX + 45 - batteryPaddingX * 2, batteryY, font3, "I", Gfx.TEXT_JUSTIFY_LEFT);
-			} else {
-				dc.setColor(colorInactive, Gfx.COLOR_TRANSPARENT);
-				dc.drawText(batteryX + 45 - batteryPaddingX * 2, batteryY, font3, "I", Gfx.TEXT_JUSTIFY_LEFT);
-				dc.setColor(colorData, Gfx.COLOR_TRANSPARENT);
-			}
-			// Do Not Disturb
-			if (Sys.getDeviceSettings() has :doNotDisturb) {
-				if (getDND()) {
-					dc.setColor(colorDnd, Gfx.COLOR_TRANSPARENT);
-					dc.drawText(batteryX + 64 - batteryPaddingX * 3, batteryY, font3, "J", Gfx.TEXT_JUSTIFY_LEFT);
-					dc.setColor(colorData, Gfx.COLOR_TRANSPARENT);
+			var iconString = "";
+			var iconStringDND = "";
+			var iconStringInactive = "";
+			if (showBattery) {
+				if (batteryFormat == 2) {
+					iconString += "  ";
 				} else {
-					dc.setColor(colorInactive, Gfx.COLOR_TRANSPARENT);
-					dc.drawText(batteryX + 64 - batteryPaddingX * 3, batteryY, font3, "J", Gfx.TEXT_JUSTIFY_LEFT);
-					dc.setColor(colorData, Gfx.COLOR_TRANSPARENT);
+					iconString += 'N';
+				}
+				iconStringDND += "  ";
+				iconStringInactive += "  ";
+			}
+			if (showBluetooth) {
+				if (getBluetooth()) {
+					iconString += 'H';
+					iconStringInactive += ' ';
+				} else {
+					iconString += ' ';
+					iconStringInactive += 'H';
+				}
+				iconStringDND += ' ';
+			}
+			if (showMessages) {
+				if (getNotification()) {
+					iconString += 'I';
+					iconStringInactive += ' ';
+				} else {
+					iconString += ' ';
+					iconStringInactive += 'I';
+				}
+				iconStringDND += ' ';
+			}
+			if (showAlarms) {
+				if (getAlarms()) {
+					iconString += 'K';
+					iconStringInactive += ' ';
+				} else {
+					iconString += ' ';
+					iconStringInactive += 'K';
+				}
+				iconStringDND += ' ';
+			}
+			if (Sys.getDeviceSettings() has :doNotDisturb) {
+				// check power safe DND
+				if (powerDNDMode != 0) {
+					gpDND = getDND(); 
+				} else {
+					gpDND = false;
+				}
+				if (showDND) {
+					if (getDND()) {
+						iconStringDND += 'J';
+					} else {
+						iconStringInactive += 'J';
+					}
 				}
 			}
+			dc.setColor(colorData, Gfx.COLOR_TRANSPARENT);
+			dc.drawText(batteryX, batteryY, font3, iconString, Gfx.TEXT_JUSTIFY_LEFT);
+			dc.setColor(colorDnd, Gfx.COLOR_TRANSPARENT);
+			dc.drawText(batteryX, batteryY, font3, iconStringDND, Gfx.TEXT_JUSTIFY_LEFT);
+			dc.setColor(colorInactive, Gfx.COLOR_TRANSPARENT);
+			dc.drawText(batteryX, batteryY, font3, iconStringInactive, Gfx.TEXT_JUSTIFY_LEFT);
+
+			if (showBattery) {
+				iconString = getBattery();
+				dc.setColor(colorBattery, Gfx.COLOR_TRANSPARENT);
+				if (batteryFormat == 0) {
+					dc.drawText(batteryX, batteryY, font3, iconString, Gfx.TEXT_JUSTIFY_LEFT);
+				} else if (batteryFormat == 1) {
+					dc.drawText(batteryX, batteryY, font4, " " + iconString, Gfx.TEXT_JUSTIFY_LEFT);
+				} else {
+					dc.drawText(batteryX, batteryY, font3, iconString, Gfx.TEXT_JUSTIFY_LEFT);
+				}
+			}
+			dc.setColor(colorData, Gfx.COLOR_TRANSPARENT);
+
+
+		} else if (fieldNr == 0) {
+			dc.setColor(colorBigStrings, Gfx.COLOR_TRANSPARENT);
+			dc.drawText(bannerX, bannerTopY, font3, getDataFields(0), Gfx.TEXT_JUSTIFY_CENTER);
+		} else if (fieldNr == 4) {
+			dc.setColor(colorBigStrings, Gfx.COLOR_TRANSPARENT);
+			dc.drawText(bannerX, bannerBottomY, font3, getDataFields(4), Gfx.TEXT_JUSTIFY_CENTER);
 		} else if (fieldNr == 1) {
+			dc.setColor(colorData, Gfx.COLOR_TRANSPARENT);
 			dc.drawText(dayX, dayY, font3, getDataFields(1), Gfx.TEXT_JUSTIFY_RIGHT);
 		} else if (fieldNr == 2) {
+			dc.setColor(colorData, Gfx.COLOR_TRANSPARENT);
 			dc.drawText(stepX, stepY, font3, getDataFields(2), Gfx.TEXT_JUSTIFY_LEFT);
 		} else {
+			dc.setColor(colorData, Gfx.COLOR_TRANSPARENT);
 			dc.drawText(dateX, dateY, font3, getDataFields(3), Gfx.TEXT_JUSTIFY_RIGHT);
 		}
 	}
@@ -144,7 +192,7 @@ class DateDrawable extends WatchUi.Drawable {
 			}
 			case DF_STEPS: {
 				result = Lang.format("$1$", [ActivityMonitor.getInfo().steps]);
-				//result = 22345;
+				//result = 2234550;
 				break;
 			}
 			case DF_HR: {
@@ -193,6 +241,39 @@ class DateDrawable extends WatchUi.Drawable {
 				}
 				break;
 			}
+			case DF_TEMP: {
+				result = App.getApp().getProperty("weatherTemp");
+				var result2 = App.getApp().getProperty("weatherIcon");
+				if (result.toString().length() > 4) {
+					result = null;
+				}
+				if (result2.toString().length() > 4) {
+					result2 = null;
+				}
+				//Sys.println(result);
+/*
+				if (result != null) {
+					if (tempFormat == 1) {
+						result = ((result.toFloat() * (9.0 / 5)) + 32).format("%0d") + "U";
+					} else {
+						result = result + "T";
+					}
+				}
+*/
+				if (result != null) {
+					if (tempFormat == 1) {
+						result = ((result.toFloat() * (9.0 / 5)) + 32).format("%0d");
+					}
+					if (result2 != null) {
+						result = weatherIconTable[result2] + result;
+					}
+				}
+				break;
+			}
+			case DF_DEFAULT: {
+				result = "";
+				break;
+			}
 		}
 		if (result == null) {
 			result ="-";
@@ -201,9 +282,11 @@ class DateDrawable extends WatchUi.Drawable {
 		if (result.length() > 9) {
 			result = result.substring(0, 4) + "-";
 		} else if (result.length() > 7) {
+			// xxx mega
 			result = result.substring(0,result.length() - 6) + "M";
 		} else if (result.length() > 5) {
-			result = result.substring(0,result.length() - 3) + "K";
+			// xxx kilo
+			result = result.substring(0,result.length() - 3) + "L";
 		}
 		return result;
 	}
@@ -211,18 +294,24 @@ class DateDrawable extends WatchUi.Drawable {
 	function getBattery() {
 		var battery = Sys.getSystemStats().battery;
 		var result;
-		if (battery > 83) {
-			result = 'A';
-		} else if (battery > 66) {
-			result = 'B'; 
-		} else if (battery > 50) {
-			result = 'C'; 
-		} else if (battery > 33) {
-			result = 'D'; 
-		} else if (battery > 16) {
-			result = 'E'; 
+		if (batteryFormat == 0) {
+			if (battery > 82) {
+				result = 'O';
+			} else if (battery > 65) {
+				result = 'P'; 
+			} else if (battery > 49) {
+				result = 'Q'; 
+			} else if (battery > 32) {
+				result = 'R'; 
+			} else if (battery > 15) {
+				result = 'S'; 
+			} else {
+				result = " ";
+			}
+		} else if (battery < 100) {
+			result = Lang.format("$1$", [battery.format("%02d")]);
 		} else {
-			result = 'F';
+			result = 99;
 		}
 		return result;
 	}
@@ -260,4 +349,10 @@ class DateDrawable extends WatchUi.Drawable {
 		var settings = Sys.getDeviceSettings();
 		return settings.doNotDisturb;
 	}
+
+	private function getAlarms(){
+       	var settings = Sys.getDeviceSettings();
+    	return settings.alarmCount > 0;
+	}
+
 }

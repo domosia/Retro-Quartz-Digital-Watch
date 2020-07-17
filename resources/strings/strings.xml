@@ -10,16 +10,31 @@
 	<string id="pm1">On</string>
 	<string id="pm2">Full (no seconds)</string>
 
-	<string id="leadingZeroSettings">Show Hours Leading Zero</string>
+	<string id="powerDNDModeSettings">Power saving on DND</string>
+	<string id="pdndm0">Off</string>
+	<string id="pdndm1">No seconds</string>
+
+	<string id="leadingZeroSettings">Show Hours Leading Zero (24h mode)</string>
 
 	<string id="secModeSettings">Seconds on power saving mode</string>
 	<string id="sm0">--</string>
 	<string id="sm1">None</string>
 	<string id="sm2">Lite</string>
 	
+	<string id="secSizeSettings">Seconds size</string>
+	<string id="ss0">Normal</string>
+	<string id="ss1">Small</string>
+
+	<string id="batteryFormatSettings">Battery format</string>
+	<string id="batteryFormat0">Classic</string>
+	<string id="batteryFormat1">Small number</string>
+	<string id="batteryFormat2">Big number</string>
+	
 	<string id="dataFieldSettings1">Right up field type</string>
 	<string id="dataFieldSettings2">Left down field type</string>
 	<string id="dataFieldSettings3">Right down field type</string>
+	<string id="dataFieldSettings0">Top banner/field type</string>
+	<string id="dataFieldSettings4">Bottom banner/field type</string>
 	<string id="df0">None</string>
 	<string id="df1">Date</string>
 	<string id="df2">Weekdays</string>
@@ -29,10 +44,37 @@
 	<string id="df5">Calories</string>
 	<string id="df6">Distance</string>
 	<string id="df7">Altitude</string>
+	<string id="df9">Weather (OWM api key required)</string>
+	<string id="df10">Default banner</string>
+	
+	<string id="showBatterySettings">Show battery icon</string>
+	<string id="showBluetoothSettings">Show bluetooth icon</string>
+	<string id="showMessagesSettings">Show messages icon</string>
+	<string id="showAlarmsSettings">Show alarms icon</string>
+	<string id="showDNDSettings">Show do not disturb icon</string>
 
 	<string id="dateFormatSettings">Date format</string>
 	<string id="dateFormat0">mm-dd</string>
 	<string id="dateFormat1">dd-mm</string>
+
+	<string id="weekdayLangSettings">Weekday language</string>
+	<string id="weekdayLang0">English</string>
+	<string id="weekdayLang1">French</string>
+	<string id="weekdayLang2">Hungarian</string>
+	<string id="weekdayLang3">German</string>
+	<string id="weekdayLang4">Spanish</string>
+	<string id="weekdayLang5">Portuguese</string>
+	<string id="weekdayLang6">Polish</string>
+	<string id="weekdayLang7">Czech</string>
+	<string id="weekdayLang8">Slovak</string>
+	<string id="weekdayLang9">Croatian</string>
+	<string id="weekdayLang10">Romanian</string>
+	<string id="weekdayLang11">Italian</string>
+	<string id="weekdayLang12">Dutch</string>
+
+	<string id="timeFormatSettings">Time format</string>
+	<string id="timeFormat0">24 hour</string>
+	<string id="timeFormat1">12 hour</string>
 
 	<string id="alignCenterSettings">Time centering</string>
 	<string id="alignCenter0">Classic quartz</string>
@@ -46,6 +88,7 @@
 	<string id="colorDndSettings">Do not disturb color (if available)</string>
 	<string id="colorBatterySettings">Battery level color</string>
 	<string id="colorStringsSettings">Strings color</string>
+	<string id="colorBigStringsSettings">Big strings color</string>
 	
 	<string id="color0">White</string>
 	<string id="color1">Light Gray</string>
@@ -73,5 +116,13 @@
 	<string id="theme3">Inverse</string>
 	<string id="theme4">Orange line</string>
 	<string id="theme5">Orange background</string>
+
+	<!--Weather -->
+	<string id="weatherOwmKeySettings" scope="foreground">API key for weather</string>
+	<string id="weatherOwmKeyHelp" scope="foreground">get it for free</string>
+
+	<string id="tempFormatSettings">Temp format</string>
+	<string id="tempFormat0">Celsius</string>
+	<string id="tempFormat1">Farenheit</string>
 
 </strings>

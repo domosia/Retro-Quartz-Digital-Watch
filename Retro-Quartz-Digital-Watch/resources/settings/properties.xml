@@ -1,5 +1,0 @@
-<properties>
-	<property id="appVersion" type="string">1.0.3</property>
-	<property id="powerMode" type="number">0</property>
-	<property id="secMode" type="number">0</property>
-</properties>

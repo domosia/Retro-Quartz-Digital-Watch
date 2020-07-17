@@ -3,17 +3,34 @@
 
 	<property id="powerMode" type="number">0</property>
 
+	<property id="powerDNDMode" type="number">0</property>
+
 	<property id="secMode" type="number">0</property>
+
+	<property id="secSize" type="number">0</property>
+
+	<property id="batteryFormat" type="number">0</property>
 
 	<property id="dfMode1" type="number">2</property>
 	<property id="dfMode2" type="number">3</property>
 	<property id="dfMode3" type="number">1</property>
+	<property id="dfMode0" type="number">10</property>
+	<property id="dfMode4" type="number">10</property>
+
+	<property id="showBattery" type="boolean">true</property>
+	<property id="showBluetooth" type="boolean">true</property>
+	<property id="showMessages" type="boolean">true</property>
+	<property id="showAlarms" type="boolean">true</property>
+	<property id="showDND" type="boolean">true</property>
 	
 	<property id="dateFormat" type="number">0</property>
+
+	<property id="weekdayLang" type="number">0</property>
 
 	<property id="alignCenter" type="number">0</property>
 
 	<property id="leadingZero" type="boolean">false</property>
+	<property id="timeFormat" type="number">0</property>
 
 	<property id="colorBackground" type="number">0xFFFFFF</property>
 	<property id="colorTime" type="number">0x000000</property>
@@ -23,7 +40,19 @@
 	<property id="colorDnd" type="number">0x000000</property>
 	<property id="colorBattery" type="number">0x000000</property>
 	<property id="colorStrings" type="number">0x00AAFF</property>
+	<property id="colorBigStrings" type="number">0xFFFFFF</property>
 	<property id="splitHeight" type="number">2</property>
 
 	<property id="theme" type="number">0</property>
+	
+	<!--WEATHER -->
+	<property id="weatherOwmKey" type="string"></property>
+	<property id="weatherLastTime" type="number">0</property>
+	<property id="weatherTemp" type="string">10000</property>
+	<property id="weatherIcon" type="string">10000</property>
+	<property id="locationLat" type="float">1000</property>
+	<property id="locationLon" type="float">1000</property>
+	
+	<property id="tempFormat" type="number">0</property>
+	
 </properties>

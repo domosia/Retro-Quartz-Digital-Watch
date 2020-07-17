@@ -1,0 +1,6 @@
+# Loca Binaries #
+#################
+/bin
+**/.DS_Store
+
+*.iml

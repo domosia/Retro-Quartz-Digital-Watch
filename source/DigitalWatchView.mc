@@ -1,14 +1,16 @@
 using Toybox.WatchUi;
 using Toybox.Graphics as Gfx;
 using Toybox.Time.Gregorian as Calendar;
-using Toybox.System;
+using Toybox.System as Sys;
+using Toybox.Communications as Comms;
 
-
+(:background)
 class DigitalWatchView extends WatchUi.WatchFace {
 	
 	var layouts;
 
 	function initialize() {   
+    	Application.getApp().startBackgroundService(true);
 		WatchFace.initialize();
 	}
 
@@ -30,12 +32,13 @@ class DigitalWatchView extends WatchUi.WatchFace {
 	}
 	
 	function onPartialUpdate(dc){
-		// show sec
-		if (gp == 0) {
-			sleepMode = true;
-			var dateTime = DateTimeBuilder.build();
-			layouts[2].drawSeconds(dc,dateTime.getSeconds(),true);
+		if (gp != 0 or gpDND) {
+			return;
 		}
+		// show sec
+			sleepMode = true;
+			var clockTime = System.getClockTime();
+			layouts[2].drawSeconds(dc, Lang.format("$1$", [clockTime.sec.format("%02d")]), true);
 	}
 	
 
@@ -48,6 +51,7 @@ class DigitalWatchView extends WatchUi.WatchFace {
 	//! The user has just looked at their watch. Timers and animations may be started here.
 	function onExitSleep() {
 		sleepMode = false;
+    	Application.getApp().startBackgroundService(true);
 		requestUpdate();
 	}
 
@@ -57,8 +61,4 @@ class DigitalWatchView extends WatchUi.WatchFace {
 		requestUpdate();
 	}
 	
-	function margin(dc){
-		return (dc.getWidth() - 195)/2;
-	}
-
 }

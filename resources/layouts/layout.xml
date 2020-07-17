@@ -1,5 +1,17 @@
 <layout id="WatchFace">
-	<drawable id="MainBack" class="MainBack"/>
+	<drawable id="MainBack" class="MainBack">
+		<param name="banner">true</param>
+		<param name="bannerTop">true</param>
+		<param name="bannerBottom">true</param>
+	</drawable>
 	<drawable id="DateDrawable" class="DateDrawable"/>
-	<drawable id="TimeDrawable" class="TimeDrawable"/>
+	<drawable id="TimeDrawable" class="TimeDrawable">
+		<param name="fontTimeWidth">28</param>
+		<param name="fontTime1Width">7</param>
+		<param name="fontSecondsWidth">43</param>
+		<param name="fontTimeSpaceWidth">4</param>
+		<param name="fontSeparatorWidth">19</param>
+		<param name="fontSecondsSpaceWidth">7</param>
+		<param name="showBatteryWideMinWidth">168</param>
+	</drawable>
 </layout>

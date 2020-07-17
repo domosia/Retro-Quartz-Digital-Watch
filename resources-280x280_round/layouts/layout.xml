@@ -1,0 +1,27 @@
+<layout id="WatchFace">
+	<drawable id="MainBack" class="MainBack">
+		<param name="banner">true</param>
+		<param name="bannerTop">true</param>
+		<param name="bannerBottom">true</param>
+		<param name="splitTopY">89</param>
+		<param name="splitBottomY">185</param>
+	</drawable>
+	<drawable id="DateDrawable" class="DateDrawable">
+		<param name="marginX">35</param>
+		<param name="topY">56</param>
+		<param name="bottomY">198</param>
+		<param name="bannerTopY">11</param>
+		<param name="bannerBottomY">241</param>
+	</drawable>
+	<drawable id="TimeDrawable" class="TimeDrawable">
+		<param name="yPosition">141</param>
+
+		<param name="fontTimeWidth">33</param>
+		<param name="fontTime1Width">8</param>
+		<param name="fontSecondsWidth">20</param>
+		<param name="fontSecondsWidth2">14</param>
+		<param name="fontTimeSpaceWidth">4</param>
+		<param name="fontSeparatorWidth">20</param>
+		<param name="fontSecondsSpaceWidth">7</param>
+	</drawable>
+</layout>

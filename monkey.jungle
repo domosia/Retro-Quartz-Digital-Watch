@@ -1,2 +1,114 @@
 project.manifest = manifest.xml
 
+
+approachs60.resourcePath = $(approachs60.resourcePath);resources-ciq_2x;resources-240x240_round
+
+approachs62.resourcePath = $(approachs62.resourcePath);resources-ciq_2x;resources-260x260_round
+
+d2bravo.resourcePath = $(d2bravo.resourcePath);resources-ciq_1x;resources-218x218_round
+
+d2bravo_titanium.resourcePath = $(d2bravo_titanium.resourcePath);resources-ciq_1x;resources-218x218_round
+
+d2charlie.resourcePath = $(d2charlie.resourcePath);resources-ciq_2x;resources-240x240_round
+
+d2delta.resourcePath = $(d2delta.resourcePath);resources-ciq_2x;resources-240x240_round
+
+d2deltapx.resourcePath = $(d2deltapx.resourcePath);resources-ciq_2x;resources-240x240_round
+
+d2deltas.resourcePath = $(d2deltas.resourcePath);resources-ciq_2x;resources-240x240_round
+
+descentmk1.resourcePath = $(descentmk1.resourcePath);resources-ciq_2x;resources-240x240_round
+
+epix.resourcePath = $(epix.resourcePath);resources-ciq_1x;resources-205x148_rectangle
+
+fenix3.resourcePath = $(fenix3.resourcePath);resources-ciq_1x;resources-218x218_round
+
+fenix3_hr.resourcePath = $(fenix3_hr.resourcePath);resources-ciq_1x;resources-218x218_round
+
+fenix5.resourcePath = $(fenix5.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fenix5plus.resourcePath = $(fenix5plus.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fenix5s.resourcePath = $(fenix5s.resourcePath);resources-ciq_2x;resources-218x218_round
+
+fenix5splus.resourcePath = $(fenix5splus.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fenix5x.resourcePath = $(fenix5x.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fenix5xplus.resourcePath = $(fenix5xplus.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fenix6.resourcePath = $(fenix6.resourcePath);resources-ciq_2x;resources-260x260_round
+
+fenix6pro.resourcePath = $(fenix6pro.resourcePath);resources-ciq_2x;resources-260x260_round
+
+fenix6s.resourcePath = $(fenix6s.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fenix6spro.resourcePath = $(fenix6spro.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fenix6xpro.resourcePath = $(fenix6xpro.resourcePath);resources-ciq_2x;resources-280x280_round
+
+fenixchronos.resourcePath = $(fenixchronos.resourcePath);resources-ciq_2x;resources-218x218_round
+
+fr230.resourcePath = $(fr230.resourcePath);resources-ciq_1x	;resources-215x180_round
+
+fr235.resourcePath = $(fr235.resourcePath);resources-ciq_1x;resources-215x180_round
+
+fr245.resourcePath = $(fr245.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fr245m.resourcePath = $(fr245m.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fr45.resourcePath = $(fr45.resourcePath);resources-ciq_1x;resources-208x208_round
+
+fr630.resourcePath = $(fr630.resourcePath);resources-ciq_1x;resources-215x180_round
+
+fr645.resourcePath = $(fr645.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fr645m.resourcePath = $(fr645m.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fr735xt.resourcePath = $(fr735xt.resourcePath);resources-ciq_2x;resources-215x180_round
+
+fr920xt.resourcePath = $(fr920xt.resourcePath);resources-ciq_1x;resources-205x148_rectangle
+
+fr935.resourcePath = $(fr935.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fr945.resourcePath = $(fr945.resourcePath);resources-ciq_2x;resources-240x240_round
+
+garminswim2.resourcePath = $(garminswim2.resourcePath);resources-ciq_1x;resources-208x208_round
+
+legacyherocaptainmarvel.resourcePath = $(legacyherocaptainmarvel.resourcePath);resources-ciq_2x;resources-218x218_round
+
+legacyherofirstavenger.resourcePath = $(legacyherofirstavenger.resourcePath);resources-ciq_2x;resources-260x260_round
+
+legacysagadarthvader.resourcePath = $(legacysagadarthvader.resourcePath);resources-ciq_2x;resources-260x260_round
+
+legacysagarey.resourcePath = $(legacysagarey.resourcePath);resources-218x218_round
+
+marqadventurer.resourcePath = $(marqadventurer.resourcePath);resources-ciq_2x;resources-240x240_round
+
+marqathlete.resourcePath = $(marqathlete.resourcePath);resources-ciq_2x;resources-240x240_round
+
+marqaviator.resourcePath = $(marqaviator.resourcePath);resources-ciq_2x;resources-240x240_round
+
+marqcaptain.resourcePath = $(marqcaptain.resourcePath);resources-ciq_2x;resources-240x240_round
+
+marqcommander.resourcePath = $(marqcommander.resourcePath);resources-ciq_2x;resources-240x240_round
+
+marqdriver.resourcePath = $(marqdriver.resourcePath);resources-ciq_2x;resources-240x240_round
+
+marqexpedition.resourcePath = $(marqexpedition.resourcePath);resources-ciq_2x;resources-240x240_round
+
+vivoactive.resourcePath = $(vivoactive.resourcePath);resources-ciq_1x;resources-205x148_rectangle
+
+vivoactive3.resourcePath = $(vivoactive3.resourcePath);resources-ciq_2x;resources-240x240_round
+
+vivoactive3d.resourcePath = $(vivoactive3d.resourcePath);resources-ciq_2x;resources-240x240_round
+
+vivoactive3m.resourcePath = $(vivoactive3m.resourcePath);resources-ciq_2x;resources-240x240_round
+
+vivoactive3mlte.resourcePath = $(vivoactive3mlte.resourcePath);resources-ciq_2x;resources-240x240_round
+
+vivoactive4.resourcePath = $(vivoactive4.resourcePath);resources-ciq_2x;resources-260x260_round
+
+vivoactive4s.resourcePath = $(vivoactive4s.resourcePath);resources-ciq_2x;resources-218x218_round
+
+vivolife.resourcePath = $(vivolife.resourcePath);resources-ciq_2x;resources-240x240_round
