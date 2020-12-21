@@ -47,6 +47,8 @@
 	<string id="df9">Weather (OWM api key required)</string>
 	<string id="df10">Default banner</string>
 	<string id="df11">Second time</string>
+	<string id="df12">Sunset/Sunrise</string>
+	<string id="df13">Floors</string>
 	
 	<string id="showBatterySettings">Show battery icon</string>
 	<string id="showBluetoothSettings">Show bluetooth icon</string>
@@ -72,6 +74,7 @@
 	<string id="weekdayLang10">Romanian</string>
 	<string id="weekdayLang11">Italian</string>
 	<string id="weekdayLang12">Dutch</string>
+	<string id="weekdayLang13">Norwegian</string>
 
 	<string id="timeFormatSettings">Time format</string>
 	<string id="timeFormat0">24 hour</string>
@@ -84,6 +87,7 @@
 	<string id="alignCenter1">Force</string>
 
 	<string id="colorBackgroundSettings">Background color</string>
+	<string id="colorBackgroundBannerSettings">Background banners color</string>
 	<string id="colorTimeSettings">Time color</string>
 	<string id="colorDataSettings">Data fields color</string>
 	<string id="colorLineSettings">Split line color</string>
