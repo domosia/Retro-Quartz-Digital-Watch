@@ -195,6 +195,13 @@ class DateDrawable extends WatchUi.Drawable {
 				//result = 2234550;
 				break;
 			}
+			case DF_FLOORS: {
+				var info = ActivityMonitor.getInfo();
+				if (info has :floorsClimbed){
+					result = info.floorsClimbed.toString();
+				}
+				break;
+			}
 			case DF_HR: {
 				var sample = Activity.getActivityInfo().currentHeartRate;
 				if (sample != null) {
@@ -244,29 +251,30 @@ class DateDrawable extends WatchUi.Drawable {
 			case DF_TEMP: {
 				result = App.getApp().getProperty("weatherTemp");
 				var result2 = App.getApp().getProperty("weatherIcon");
+				var LastTime = App.getApp().getProperty("weatherLastTime");
+				var result3 = Time.now().value() - LastTime < 1800 ? null : ":"; //outdated the weather data?
 				if (result.toString().length() > 4) {
 					result = null;
 				}
 				if (result2.toString().length() > 4) {
 					result2 = null;
 				}
-				//Sys.println(result);
-/*
-				if (result != null) {
-					if (tempFormat == 1) {
-						result = ((result.toFloat() * (9.0 / 5)) + 32).format("%0d") + "U";
-					} else {
-						result = result + "T";
-					}
-				}
-*/
+				//Sys.println(Time.now().value() - LastTime < 1800 ? "igen": "Nem");
 				if (result != null) {
 					if (tempFormat == 1) {
 						result = ((result.toFloat() * (9.0 / 5)) + 32).format("%0d");
 					}
-					if (result2 != null) {
-						result = weatherIconTable[result2] + result;
+					if (result3 == null) {
+						if (result2 != null) {
+							result = weatherIconTable[result2] + result;
+						}
 					}
+				} else if (weatherOwmKey.toString().length() < 10) {
+					result = "key";
+				} else if (locationLat == 1000) {
+					result = "gps";
+				} else {
+					result = "web";
 				}
 				break;
 			}
@@ -275,9 +283,14 @@ class DateDrawable extends WatchUi.Drawable {
 				var dur = new Time.Duration(offset);
 				var clockTime = Calendar.info(Time.now().add(dur), Time.FORMAT_SHORT);
 				result = clockTime.hour + ":" + Lang.format("$1$", [ clockTime.min.format("%02d")]);
-
-
-
+				break;
+			}
+			case DF_SUNSETSUNRISE: {
+			    if (locationLat != 1000) {
+					result = getSunsetSunrise();
+				} else {
+					result ="gps";
+				}
 				break;
 			}
 			case DF_DEFAULT: {
@@ -365,4 +378,165 @@ class DateDrawable extends WatchUi.Drawable {
     	return settings.alarmCount > 0;
 	}
 
+
+	private function getSunsetSunrise(){
+		var result = "-";
+		if (locationLat != null) {
+			var nextSunEvent = 0;
+			var sunTimes;
+			var now = Calendar.info(Time.now(), Time.FORMAT_SHORT);
+
+			// Convert to same format as sunTimes, for easier comparison. Add a minute, so that e.g. if sun rises at
+			// 07:38:17, then 07:38 is already consided daytime (seconds not shown to user).
+			now = now.hour + ((now.min + 1) / 60.0);
+			//Sys.println(now);
+
+			// Get today's sunrise/sunset times in current time zone.
+			sunTimes = getSunTimes(locationLat, locationLon, null, /* tomorrow */ false);
+			//Sys.println(sunTimes);
+
+			// If sunrise/sunset happens today.
+			var sunriseSunsetToday = ((sunTimes[0] != null) && (sunTimes[1] != null));
+			if (sunriseSunsetToday) {
+
+				// Before sunrise today: today's sunrise is next.
+				if (now < sunTimes[0]) {
+					nextSunEvent = sunTimes[0];
+					//result["isSunriseNext"] = true;
+					//Sys.println("1");
+				// After sunrise today, before sunset today: today's sunset is next.
+				} else if (now < sunTimes[1]) {
+					nextSunEvent = sunTimes[1];
+
+				// After sunset today: tomorrow's sunrise (if any) is next.
+				} else {
+					sunTimes = getSunTimes(locationLat, locationLon, null, /* tomorrow */ true);
+					nextSunEvent = sunTimes[0];
+					//Sys.println("3");
+					//result["isSunriseNext"] = true;
+				}
+				//Sys.println(sunTimes);
+				var hour = Math.floor(nextSunEvent).toLong() % 24;
+				var min = Math.floor((nextSunEvent - Math.floor(nextSunEvent)) * 60); // Math.floor(fractional_part * 60)
+				//value = App.getApp().getFormattedTime(hour, min);
+				result = hour + ":" + Lang.format("$1$", [ min.format("%02d")]);
+				//Sys.println(result); 
+			}
+
+		}
+		return result;
+	}
+
+	/**
+	* With thanks to ruiokada. Adapted, then translated to Monkey C, from:
+	* https://gist.github.com/ruiokada/b28076d4911820ddcbbc
+	*
+	* Calculates sunrise and sunset in local time given latitude, longitude, and tz.
+	*
+	* Equations taken from:
+	* https://en.wikipedia.org/wiki/Julian_day#Converting_Julian_or_Gregorian_calendar_date_to_Julian_Day_Number
+	* https://en.wikipedia.org/wiki/Sunrise_equation#Complete_calculation_on_Earth
+	*
+	* @method getSunTimes
+	* @param {Float} lat Latitude of location (South is negative)
+	* @param {Float} lng Longitude of location (West is negative)
+	* @param {Integer || null} tz Timezone hour offset. e.g. Pacific/Los Angeles is -8 (Specify null for system timezone)
+	* @param {Boolean} tomorrow Calculate tomorrow's sunrise and sunset, instead of today's.
+	* @return {Array} Returns array of length 2 with sunrise and sunset as floats.
+	*                 Returns array with [null, -1] if the sun never rises, and [-1, null] if the sun never sets.
+	*/
+	private function getSunTimes(lat, lng, tz, tomorrow) {
+
+		// Use double precision where possible, as floating point errors can affect result by minutes.
+		lat = lat.toDouble();
+		lng = lng.toDouble();
+
+		var now = Time.now();
+		if (tomorrow) {
+			now = now.add(new Time.Duration(24 * 60 * 60));
+		}
+		var d = Calendar.info(now, Time.FORMAT_SHORT);
+		var rad = Math.PI / 180.0d;
+		var deg = 180.0d / Math.PI;
+		
+		// Calculate Julian date from Gregorian.
+		var a = Math.floor((14 - d.month) / 12);
+		var y = d.year + 4800 - a;
+		var m = d.month + (12 * a) - 3;
+		var jDate = d.day
+			+ Math.floor(((153 * m) + 2) / 5)
+			+ (365 * y)
+			+ Math.floor(y / 4)
+			- Math.floor(y / 100)
+			+ Math.floor(y / 400)
+			- 32045;
+
+		// Number of days since Jan 1st, 2000 12:00.
+		var n = jDate - 2451545.0d + 0.0008d;
+		//Sys.println("n " + n);
+
+		// Mean solar noon.
+		var jStar = n - (lng / 360.0d);
+		//Sys.println("jStar " + jStar);
+
+		// Solar mean anomaly.
+		var M = 357.5291d + (0.98560028d * jStar);
+		var MFloor = Math.floor(M);
+		var MFrac = M - MFloor;
+		M = MFloor.toLong() % 360;
+		M += MFrac;
+		//Sys.println("M " + M);
+
+		// Equation of the centre.
+		var C = 1.9148d * Math.sin(M * rad)
+			+ 0.02d * Math.sin(2 * M * rad)
+			+ 0.0003d * Math.sin(3 * M * rad);
+		//Sys.println("C " + C);
+
+		// Ecliptic longitude.
+		var lambda = (M + C + 180 + 102.9372d);
+		var lambdaFloor = Math.floor(lambda);
+		var lambdaFrac = lambda - lambdaFloor;
+		lambda = lambdaFloor.toLong() % 360;
+		lambda += lambdaFrac;
+		//Sys.println("lambda " + lambda);
+
+		// Solar transit.
+		var jTransit = 2451545.5d + jStar
+			+ 0.0053d * Math.sin(M * rad)
+			- 0.0069d * Math.sin(2 * lambda * rad);
+		//Sys.println("jTransit " + jTransit);
+
+		// Declination of the sun.
+		var delta = Math.asin(Math.sin(lambda * rad) * Math.sin(23.44d * rad));
+		//Sys.println("delta " + delta);
+
+		// Hour angle.
+		var cosOmega = (Math.sin(-0.83d * rad) - Math.sin(lat * rad) * Math.sin(delta))
+			/ (Math.cos(lat * rad) * Math.cos(delta));
+		//Sys.println("cosOmega " + cosOmega);
+
+		// Sun never rises.
+		if (cosOmega > 1) {
+			return [null, -1];
+		}
+		
+		// Sun never sets.
+		if (cosOmega < -1) {
+			return [-1, null];
+		}
+		
+		// Calculate times from omega.
+		var omega = Math.acos(cosOmega) * deg;
+		var jSet = jTransit + (omega / 360.0);
+		var jRise = jTransit - (omega / 360.0);
+		var deltaJSet = jSet - jDate;
+		var deltaJRise = jRise - jDate;
+
+		var tzOffset = (tz == null) ? (Sys.getClockTime().timeZoneOffset / 3600) : tz;
+		return [
+			/* localRise */ (deltaJRise * 24) + tzOffset,
+			/* localSet */ (deltaJSet * 24) + tzOffset
+		];
+	}
 }

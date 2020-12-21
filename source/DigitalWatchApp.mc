@@ -43,31 +43,31 @@ class DigitalWatchApp extends App.AppBase {
 	    	setProperty("weatherIcon", weatherIcon);
 	    	setProperty("weatherLastTime", Time.now().value());
 		}
-		
-		startBackgroundService(false);
+		//Sys.println("Background data");
     }
 
 	function onSettingsChanged() {
 		getSettings();
-		startBackgroundService(true);
 		Ui.requestUpdate();
 	}
 	
-	function startBackgroundService(noBackground) {
+	function startBackgroundService() {
+		//Sys.println("Starting background");
 		if (!showWeather) {
 			return;
 		}
 
-		if (!(Sys has :ServiceDelegate)) {
+		//if (!(Sys has :ServiceDelegate)) {
+		//	return;
+		//}
+		
+		var registeredTime = Background.getTemporalEventRegisteredTime();
+		if (registeredTime != null){
 			return;
 		}
-		
+
 		//Sys.println("Starting background");
 		
-		if (noBackground) {
-    		getLocation();
-    	}
-	    
 	    if (locationLat == 1000) {
 	    	//Sys.println("no position");
 	    	return;
@@ -135,6 +135,7 @@ class DigitalWatchApp extends App.AppBase {
 		if (theme != 0) {
 			setTheme(theme);
 			setProperty("colorBackground", colorBackground);
+			setProperty("colorBackgroundBanner", colorBackgroundBanner);
 			setProperty("colorTime", colorTime);
 			setProperty("colorData", colorData);
 			setProperty("colorLine", colorLine);
@@ -147,6 +148,7 @@ class DigitalWatchApp extends App.AppBase {
 			setProperty("theme", 0);
 		} else {
 			colorBackground = getProperty("colorBackground");
+			colorBackgroundBanner = getProperty("colorBackgroundBanner");
 			colorTime = getProperty("colorTime");
 			colorData = getProperty("colorData");
 			colorLine = getProperty("colorLine");
@@ -189,6 +191,8 @@ class DigitalWatchApp extends App.AppBase {
 			day_of_week_array = ["dom", "lun", "mar", "mer", "gio", "ven", "sab"];
 		} else if (weekdayLang == 12) {
 			day_of_week_array = ["zon", "maa", "din", "woe", "don", "vri", "zat"];
+		} else if (weekdayLang == 13) {
+			day_of_week_array = ["son", "man", "tur", "ons", "tor", "fre", "lor"];
 		} else {
 			day_of_week_array = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 		}
@@ -200,10 +204,10 @@ class DigitalWatchApp extends App.AppBase {
 						dataFieldsType[4]==DF_TEMP;
 	}
 
-	(:background_method)
 	function setTheme(theme) {
 		if (theme == 1) {
 			colorBackground = Gfx.COLOR_WHITE;
+			colorBackgroundBanner = Gfx.COLOR_BLACK;
 			colorTime = Gfx.COLOR_BLACK;
 			colorData = Gfx.COLOR_BLACK;
 			colorLine = Gfx.COLOR_BLACK;
@@ -215,6 +219,7 @@ class DigitalWatchApp extends App.AppBase {
 			splitHeight = 2;
 		} else if (theme == 2) {
 			colorBackground = Gfx.COLOR_WHITE;
+			colorBackgroundBanner = Gfx.COLOR_BLACK;
 			colorTime = Gfx.COLOR_BLACK;
 			colorData = Gfx.COLOR_BLACK;
 			colorLine = Gfx.COLOR_BLUE;
@@ -226,6 +231,7 @@ class DigitalWatchApp extends App.AppBase {
 			splitHeight = 8;
 		} else if (theme == 3) {
 			colorBackground = Gfx.COLOR_BLACK;
+			colorBackgroundBanner = Gfx.COLOR_BLACK;
 			colorTime = Gfx.COLOR_WHITE;
 			colorData = Gfx.COLOR_WHITE;
 			colorLine = Gfx.COLOR_WHITE;
@@ -237,6 +243,7 @@ class DigitalWatchApp extends App.AppBase {
 			splitHeight = 2;
 		} else if (theme == 4) {
 			colorBackground = Gfx.COLOR_WHITE;
+			colorBackgroundBanner = Gfx.COLOR_BLACK;
 			colorTime = Gfx.COLOR_BLACK;
 			colorData = Gfx.COLOR_DK_BLUE;
 			colorLine = Gfx.COLOR_ORANGE;
@@ -248,15 +255,16 @@ class DigitalWatchApp extends App.AppBase {
 			splitHeight = 8;
 		} else if (theme == 5) {
 			colorBackground = Gfx.COLOR_ORANGE;
+			colorBackgroundBanner = Gfx.COLOR_YELLOW;
 			colorTime = Gfx.COLOR_BLACK;
 			colorData = Gfx.COLOR_BLACK;
-			colorLine = Gfx.COLOR_BLUE;
-			colorInactive = Gfx.COLOR_ORANGE;
+			colorLine = Gfx.COLOR_BLACK;
+			colorInactive = Gfx.COLOR_YELLOW;
 			colorDnd = Gfx.COLOR_RED;
 			colorBattery = Gfx.COLOR_BLUE;
-			colorStrings = Gfx.COLOR_BLUE;
-			colorBigStrings = Gfx.COLOR_WHITE;
-			splitHeight = 8;
+			colorStrings = Gfx.COLOR_RED;
+			colorBigStrings = Gfx.COLOR_BLACK;
+			splitHeight = 2;
 		}
 		
 	}
@@ -273,5 +281,6 @@ class DigitalWatchApp extends App.AppBase {
 			locationLat = getProperty("locationLat");
 			locationLon = getProperty("locationLon");
 		}
+		//Sys.println("Getlocation");
 	}
 }

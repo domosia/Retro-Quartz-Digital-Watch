@@ -19,6 +19,8 @@ d2deltas.resourcePath = $(d2deltas.resourcePath);resources-ciq_2x;resources-240x
 
 descentmk1.resourcePath = $(descentmk1.resourcePath);resources-ciq_2x;resources-240x240_round
 
+descentmk2.resourcePath = $(descentmk2.resourcePath);resources-ciq_2x;resources-280x280_round
+
 epix.resourcePath = $(epix.resourcePath);resources-ciq_1x;resources-205x148_rectangle
 
 fenix3.resourcePath = $(fenix3.resourcePath);resources-ciq_1x;resources-218x218_round
@@ -67,6 +69,8 @@ fr645m.resourcePath = $(fr645m.resourcePath);resources-ciq_2x;resources-240x240_
 
 fr735xt.resourcePath = $(fr735xt.resourcePath);resources-ciq_2x;resources-215x180_round
 
+fr745.resourcePath = $(fr745.resourcePath);resources-ciq_2x;resources-240x240_round
+
 fr920xt.resourcePath = $(fr920xt.resourcePath);resources-ciq_1x;resources-205x148_rectangle
 
 fr935.resourcePath = $(fr935.resourcePath);resources-ciq_2x;resources-240x240_round
@@ -96,6 +100,8 @@ marqcommander.resourcePath = $(marqcommander.resourcePath);resources-ciq_2x;reso
 marqdriver.resourcePath = $(marqdriver.resourcePath);resources-ciq_2x;resources-240x240_round
 
 marqexpedition.resourcePath = $(marqexpedition.resourcePath);resources-ciq_2x;resources-240x240_round
+
+marqgolfer.resourcePath = $(marqgolfer.resourcePath);resources-ciq_2x;resources-240x240_round
 
 vivoactive.resourcePath = $(vivoactive.resourcePath);resources-ciq_1x;resources-205x148_rectangle
 

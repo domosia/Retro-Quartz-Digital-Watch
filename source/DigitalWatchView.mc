@@ -10,7 +10,9 @@ class DigitalWatchView extends WatchUi.WatchFace {
 	var layouts;
 
 	function initialize() {   
-    	Application.getApp().startBackgroundService(true);
+		if (Sys has :ServiceDelegate) {
+    		Application.getApp().startBackgroundService();
+    	}
 		WatchFace.initialize();
 	}
 
@@ -24,14 +26,19 @@ class DigitalWatchView extends WatchUi.WatchFace {
 	//! the state of this View and prepare it to be shown. This includes
 	//! loading resources into memory.
 	function onShow() {
+		Application.getApp().getLocation();
 	}
 
 	//! Update the view
 	function onUpdate(dc) {
 		View.onUpdate(dc);
+		if (Sys has :ServiceDelegate) {
+    		Application.getApp().startBackgroundService();
+    	}
 	}
 	
 	function onPartialUpdate(dc){
+	  //Sys.println("aaa");
 		if (gp != 0 or gpDND) {
 			return;
 		}
@@ -51,7 +58,6 @@ class DigitalWatchView extends WatchUi.WatchFace {
 	//! The user has just looked at their watch. Timers and animations may be started here.
 	function onExitSleep() {
 		sleepMode = false;
-    	Application.getApp().startBackgroundService(true);
 		requestUpdate();
 	}
 

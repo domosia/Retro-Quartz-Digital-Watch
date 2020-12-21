@@ -10,6 +10,8 @@ const DF_YEAR			= 8;
 const DF_TEMP			= 9;
 const DF_DEFAULT		= 10;
 const DF_SECONDTIME		= 11;
+const DF_SUNSETSUNRISE	= 12;
+const DF_FLOORS			= 13;
 
 const weatherIconTable = {
 	"01d" => 'V',
@@ -77,6 +79,7 @@ var showAlarms = true;
 var showDND = true;
 
 var colorBackground = 0;
+var colorBackgroundBanner = 0;
 var colorTime = 0;
 var colorData = 0;
 var colorLine = 0;

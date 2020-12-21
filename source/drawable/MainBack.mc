@@ -56,8 +56,8 @@ class MainBack extends WatchUi.Drawable {
 		if(banner){
 			if(bannerTop){
 				// Top banner
-				dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE);
-				dc.fillRectangle(0,0,width, bannerTopY);
+				dc.setColor(colorBackgroundBanner, Gfx.COLOR_WHITE);
+				dc.fillRectangle(0,0,width, bannerTopY + 1);
 				if (dataFieldsType[0] == DF_DEFAULT) {
 					dc.setColor(colorBigStrings, Gfx.COLOR_TRANSPARENT);
 					dc.drawText(width/2, 5, font4, label1, Gfx.TEXT_JUSTIFY_CENTER);
@@ -68,7 +68,7 @@ class MainBack extends WatchUi.Drawable {
 			
 			if(bannerBottom){
 				//Bottom banner
-				dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE);
+				dc.setColor(colorBackgroundBanner, Gfx.COLOR_WHITE);
 				dc.fillRectangle(0,bannerBottomY,dc.getWidth(), height);
 				if (dataFieldsType[4] == DF_DEFAULT) {
 					dc.setColor(colorStrings, Gfx.COLOR_TRANSPARENT);
