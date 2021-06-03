@@ -43,6 +43,7 @@
 			<listEntry value="9">@Strings.weekdayLang9</listEntry>
 			<listEntry value="7">@Strings.weekdayLang7</listEntry>
 			<listEntry value="12">@Strings.weekdayLang12</listEntry>
+			<listEntry value="14">@Strings.weekdayLang14</listEntry>
 			<listEntry value="1">@Strings.weekdayLang1</listEntry>
 			<listEntry value="3">@Strings.weekdayLang3</listEntry>
 			<listEntry value="2">@Strings.weekdayLang2</listEntry>
@@ -51,6 +52,7 @@
 			<listEntry value="6">@Strings.weekdayLang6</listEntry>
 			<listEntry value="5">@Strings.weekdayLang5</listEntry>
 			<listEntry value="10">@Strings.weekdayLang10</listEntry>
+			<listEntry value="15">@Strings.weekdayLang15</listEntry>
 			<listEntry value="8">@Strings.weekdayLang8</listEntry>
 			<listEntry value="4">@Strings.weekdayLang4</listEntry>
 		</settingConfig>
@@ -70,12 +72,35 @@
 		</settingConfig>
 	</setting>
 
-	<setting propertyKey="@Properties.secondTime" title="@Strings.secondTimeSettings">
-		<settingConfig type="numeric" min="-720" max="840"/>
-	</setting>
-
 	<setting propertyKey="@Properties.leadingZero" title="@Strings.leadingZeroSettings">
 		<settingConfig type="boolean"/>
+	</setting>
+
+	<setting propertyKey="@Properties.secondTime" title="@Strings.secondTimeSettings">
+		<settingConfig type="numeric" min="-840" max="840"/>
+	</setting>
+
+	<setting propertyKey="@Properties.secondTimeNegative" title="@Strings.secondTimeNegativeSettings">
+		<settingConfig type="boolean"/>
+	</setting>
+
+	<setting propertyKey="@Properties.dfMode5" title="@Strings.dataFieldSettings5">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.df0</listEntry>
+			<listEntry value="1">@Strings.df1</listEntry>
+			<listEntry value="2">@Strings.df2</listEntry>
+			<listEntry value="8">@Strings.df8</listEntry>
+			<listEntry value="3">@Strings.df3</listEntry>
+			<listEntry value="6">@Strings.df6</listEntry>
+			<listEntry value="13">@Strings.df13</listEntry>
+			<listEntry value="4">@Strings.df4</listEntry>
+			<listEntry value="5">@Strings.df5</listEntry>
+			<listEntry value="7">@Strings.df7</listEntry>
+			<listEntry value="15">@Strings.df15</listEntry>
+			<listEntry value="11">@Strings.df11</listEntry>
+			<listEntry value="12">@Strings.df12</listEntry>
+			<listEntry value="14">@Strings.df14</listEntry>
+		</settingConfig>
 	</setting>
 
 	<setting propertyKey="@Properties.dfMode1" title="@Strings.dataFieldSettings1">
@@ -85,12 +110,15 @@
 			<listEntry value="2">@Strings.df2</listEntry>
 			<listEntry value="8">@Strings.df8</listEntry>
 			<listEntry value="3">@Strings.df3</listEntry>
+			<listEntry value="6">@Strings.df6</listEntry>
 			<listEntry value="13">@Strings.df13</listEntry>
 			<listEntry value="4">@Strings.df4</listEntry>
 			<listEntry value="5">@Strings.df5</listEntry>
 			<listEntry value="7">@Strings.df7</listEntry>
+			<listEntry value="15">@Strings.df15</listEntry>
 			<listEntry value="11">@Strings.df11</listEntry>
 			<listEntry value="12">@Strings.df12</listEntry>
+			<listEntry value="14">@Strings.df14</listEntry>
 		</settingConfig>
 	</setting>
 
@@ -101,12 +129,15 @@
 			<listEntry value="2">@Strings.df2</listEntry>
 			<listEntry value="8">@Strings.df8</listEntry>
 			<listEntry value="3">@Strings.df3</listEntry>
+			<listEntry value="6">@Strings.df6</listEntry>
 			<listEntry value="13">@Strings.df13</listEntry>
 			<listEntry value="4">@Strings.df4</listEntry>
 			<listEntry value="5">@Strings.df5</listEntry>
 			<listEntry value="7">@Strings.df7</listEntry>
+			<listEntry value="15">@Strings.df15</listEntry>
 			<listEntry value="11">@Strings.df11</listEntry>
 			<listEntry value="12">@Strings.df12</listEntry>
+			<listEntry value="14">@Strings.df14</listEntry>
 		</settingConfig>
 	</setting>
 
@@ -117,12 +148,15 @@
 			<listEntry value="2">@Strings.df2</listEntry>
 			<listEntry value="8">@Strings.df8</listEntry>
 			<listEntry value="3">@Strings.df3</listEntry>
+			<listEntry value="6">@Strings.df6</listEntry>
 			<listEntry value="13">@Strings.df13</listEntry>
 			<listEntry value="4">@Strings.df4</listEntry>
 			<listEntry value="5">@Strings.df5</listEntry>
 			<listEntry value="7">@Strings.df7</listEntry>
+			<listEntry value="15">@Strings.df15</listEntry>
 			<listEntry value="11">@Strings.df11</listEntry>
 			<listEntry value="12">@Strings.df12</listEntry>
+			<listEntry value="14">@Strings.df14</listEntry>
 		</settingConfig>
 	</setting>
 
@@ -134,12 +168,15 @@
 			<listEntry value="2">@Strings.df2</listEntry>
 			<listEntry value="8">@Strings.df8</listEntry>
 			<listEntry value="3">@Strings.df3</listEntry>
+			<listEntry value="6">@Strings.df6</listEntry>
 			<listEntry value="13">@Strings.df13</listEntry>
 			<listEntry value="4">@Strings.df4</listEntry>
 			<listEntry value="5">@Strings.df5</listEntry>
 			<listEntry value="7">@Strings.df7</listEntry>
+			<listEntry value="15">@Strings.df15</listEntry>
 			<listEntry value="11">@Strings.df11</listEntry>
 			<listEntry value="12">@Strings.df12</listEntry>
+			<listEntry value="14">@Strings.df14</listEntry>
 		</settingConfig>
 	</setting>
 
@@ -151,12 +188,15 @@
 			<listEntry value="2">@Strings.df2</listEntry>
 			<listEntry value="8">@Strings.df8</listEntry>
 			<listEntry value="3">@Strings.df3</listEntry>
+			<listEntry value="6">@Strings.df6</listEntry>
 			<listEntry value="13">@Strings.df13</listEntry>
 			<listEntry value="4">@Strings.df4</listEntry>
 			<listEntry value="5">@Strings.df5</listEntry>
 			<listEntry value="7">@Strings.df7</listEntry>
+			<listEntry value="15">@Strings.df15</listEntry>
 			<listEntry value="11">@Strings.df11</listEntry>
 			<listEntry value="12">@Strings.df12</listEntry>
+			<listEntry value="14">@Strings.df14</listEntry>
 		</settingConfig>
 	</setting>
 
@@ -326,6 +366,24 @@
 	</setting>
 
 	<setting propertyKey="@Properties.colorInactive" title="@Strings.colorInactiveSettings">
+		<settingConfig type="list">
+			<listEntry value="0xFFFFFF">@Strings.color0</listEntry>
+			<listEntry value="0xAAAAAA">@Strings.color1</listEntry>
+			<listEntry value="0x555555">@Strings.color2</listEntry>
+			<listEntry value="0x000000">@Strings.color3</listEntry>
+			<listEntry value="0xFF0000">@Strings.color4</listEntry>
+			<listEntry value="0xAA0000">@Strings.color5</listEntry>
+			<listEntry value="0xFF5500">@Strings.color6</listEntry>
+			<listEntry value="0xFFAA00">@Strings.color7</listEntry>
+			<listEntry value="0x00FF00">@Strings.color8</listEntry>
+			<listEntry value="0x00AA00">@Strings.color9</listEntry>
+			<listEntry value="0x00AAFF">@Strings.color10</listEntry>
+			<listEntry value="0x0000FF">@Strings.color11</listEntry>
+			<listEntry value="0xFF00FF">@Strings.color12</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.colorInactiveSec" title="@Strings.colorInactiveSecSettings">
 		<settingConfig type="list">
 			<listEntry value="0xFFFFFF">@Strings.color0</listEntry>
 			<listEntry value="0xAAAAAA">@Strings.color1</listEntry>

@@ -19,6 +19,7 @@ char id=77   x=180   y=0     width=14    height=25    xoffset=0     yoffset=0   
 char id=84   x=195   y=0     width=14    height=25    xoffset=0     yoffset=0     xadvance=16    page=0  chnl=15
 char id=85   x=210   y=0     width=14    height=25    xoffset=0     yoffset=0     xadvance=16    page=0  chnl=15
 
+char id=46   x=235   y=0    width=5     height=25    xoffset=0     yoffset=0     xadvance=6     page=0  chnl=15
 char id=58   x=226   y=0    width=5     height=25    xoffset=0     yoffset=0     xadvance=8     page=0  chnl=15
 char id=32   x=117   y=29   width=0     height=25    xoffset=0     yoffset=0     xadvance=16    page=0  chnl=15
 char id=72   x=15    y=29   width=14    height=25    xoffset=0     yoffset=0     xadvance=16    page=0  chnl=15
