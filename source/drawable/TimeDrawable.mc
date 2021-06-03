@@ -137,7 +137,7 @@ class TimeDrawable extends WatchUi.Drawable {
 			} else {
 				// no sec, sleep mode
 				if (secHidden == '8') {
-					dc.setColor(colorInactive, colorBackground);
+					dc.setColor(colorInactiveSec, colorBackground);
 				} else {
 					dc.setColor(colorTime, colorBackground);
 				}

@@ -113,13 +113,15 @@ class DigitalWatchApp extends App.AppBase {
 		weekdayLang = getProperty("weekdayLang");
 		timeFormat = getProperty("timeFormat");
 		secondTime = getProperty("secondTime");
+		secondTimeNegative = getProperty("secondTimeNegative");
 		batteryFormat = getProperty("batteryFormat");
 		leadingZero = getProperty("leadingZero");
+		dataFieldsType [0] = getProperty("dfMode0");
 		dataFieldsType [1] = getProperty("dfMode1");
 		dataFieldsType [2] = getProperty("dfMode2");
 		dataFieldsType [3] = getProperty("dfMode3");
-		dataFieldsType [0] = getProperty("dfMode0");
 		dataFieldsType [4] = getProperty("dfMode4");
+		dataFieldsType [5] = getProperty("dfMode5");
 
 		showBattery = getProperty("showBattery");
 		showBluetooth = getProperty("showBluetooth");
@@ -140,6 +142,7 @@ class DigitalWatchApp extends App.AppBase {
 			setProperty("colorData", colorData);
 			setProperty("colorLine", colorLine);
 			setProperty("colorInactive", colorInactive);
+			setProperty("colorInactiveSec", colorInactiveSec);
 			setProperty("colorDnd", colorDnd);
 			setProperty("colorBattery", colorBattery);
 			setProperty("colorStrings", colorStrings);
@@ -153,6 +156,7 @@ class DigitalWatchApp extends App.AppBase {
 			colorData = getProperty("colorData");
 			colorLine = getProperty("colorLine");
 			colorInactive = getProperty("colorInactive");
+			colorInactiveSec = getProperty("colorInactiveSec");
 			colorDnd = getProperty("colorDnd");
 			colorBattery = getProperty("colorBattery");
 			colorStrings = getProperty("colorStrings");
@@ -193,6 +197,10 @@ class DigitalWatchApp extends App.AppBase {
 			day_of_week_array = ["zon", "maa", "din", "woe", "don", "vri", "zat"];
 		} else if (weekdayLang == 13) {
 			day_of_week_array = ["son", "man", "tur", "ons", "tor", "fre", "lor"];
+		} else if (weekdayLang == 14) {
+			day_of_week_array = ["su", "ma", "ti", "ke", "to", "pe", "la"];
+		} else if (weekdayLang == 15) {
+			day_of_week_array = ["ned", "pon", "uto", "sre", "cet", "pet", "sub"];
 		} else {
 			day_of_week_array = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 		}
@@ -201,7 +209,8 @@ class DigitalWatchApp extends App.AppBase {
 						dataFieldsType[1]==DF_TEMP or
 						dataFieldsType[2]==DF_TEMP or
 						dataFieldsType[3]==DF_TEMP or
-						dataFieldsType[4]==DF_TEMP;
+						dataFieldsType[4]==DF_TEMP or
+						dataFieldsType[5]==DF_TEMP;
 	}
 
 	function setTheme(theme) {
@@ -212,6 +221,7 @@ class DigitalWatchApp extends App.AppBase {
 			colorData = Gfx.COLOR_BLACK;
 			colorLine = Gfx.COLOR_BLACK;
 			colorInactive = Gfx.COLOR_WHITE;
+			colorInactiveSec = Gfx.COLOR_WHITE;
 			colorDnd = Gfx.COLOR_BLACK;
 			colorBattery = Gfx.COLOR_BLACK;
 			colorStrings = Gfx.COLOR_BLUE;
@@ -224,6 +234,7 @@ class DigitalWatchApp extends App.AppBase {
 			colorData = Gfx.COLOR_BLACK;
 			colorLine = Gfx.COLOR_BLUE;
 			colorInactive = Gfx.COLOR_LT_GRAY;
+			colorInactiveSec = Gfx.COLOR_LT_GRAY;
 			colorDnd = Gfx.COLOR_RED;
 			colorBattery = Gfx.COLOR_BLUE;
 			colorStrings = Gfx.COLOR_BLUE;
@@ -236,6 +247,7 @@ class DigitalWatchApp extends App.AppBase {
 			colorData = Gfx.COLOR_WHITE;
 			colorLine = Gfx.COLOR_WHITE;
 			colorInactive = Gfx.COLOR_BLACK;
+			colorInactiveSec = Gfx.COLOR_BLACK;
 			colorDnd = Gfx.COLOR_WHITE;
 			colorBattery = Gfx.COLOR_BLUE;
 			colorStrings = Gfx.COLOR_BLUE;
@@ -248,6 +260,7 @@ class DigitalWatchApp extends App.AppBase {
 			colorData = Gfx.COLOR_DK_BLUE;
 			colorLine = Gfx.COLOR_ORANGE;
 			colorInactive = Gfx.COLOR_WHITE;
+			colorInactiveSec = Gfx.COLOR_WHITE;
 			colorDnd = Gfx.COLOR_RED;
 			colorBattery = Gfx.COLOR_GREEN;
 			colorStrings = Gfx.COLOR_ORANGE;
@@ -260,6 +273,7 @@ class DigitalWatchApp extends App.AppBase {
 			colorData = Gfx.COLOR_BLACK;
 			colorLine = Gfx.COLOR_BLACK;
 			colorInactive = Gfx.COLOR_YELLOW;
+			colorInactiveSec = Gfx.COLOR_YELLOW;
 			colorDnd = Gfx.COLOR_RED;
 			colorBattery = Gfx.COLOR_BLUE;
 			colorStrings = Gfx.COLOR_RED;

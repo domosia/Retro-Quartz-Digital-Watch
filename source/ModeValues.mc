@@ -12,6 +12,8 @@ const DF_DEFAULT		= 10;
 const DF_SECONDTIME		= 11;
 const DF_SUNSETSUNRISE	= 12;
 const DF_FLOORS			= 13;
+const DF_ICONS			= 14;
+const DF_MESSAGES		= 15;
 
 const weatherIconTable = {
 	"01d" => 'V',
@@ -60,6 +62,7 @@ var batteryFormat = 0;
 var timeCenter = 0;
 var leadingZero = false;
 var secondTime;
+var secondTimeNegative = false;
 
 // Weather
 var showWeather = false;
@@ -70,7 +73,7 @@ var tempFormat = 0;
 var locationLat = 1000;
 var locationLon = 0;
 
-var dataFieldsType = new [5];
+var dataFieldsType = new [6];
 
 var showBattery = true;
 var showBluetooth = true;
@@ -84,6 +87,7 @@ var colorTime = 0;
 var colorData = 0;
 var colorLine = 0;
 var colorInactive = 0;
+var colorInactiveSec = 0;
 var colorDnd = 0;
 var colorBattery = 0;
 var colorStrings = 0;
