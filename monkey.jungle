@@ -21,8 +21,6 @@ descentmk1.resourcePath = $(descentmk1.resourcePath);resources-ciq_2x;resources-
 
 descentmk2.resourcePath = $(descentmk2.resourcePath);resources-ciq_2x;resources-280x280_round
 
-epix.resourcePath = $(epix.resourcePath);resources-ciq_1x;resources-205x148_rectangle
-
 fenix3.resourcePath = $(fenix3.resourcePath);resources-ciq_1x;resources-218x218_round
 
 fenix3_hr.resourcePath = $(fenix3_hr.resourcePath);resources-ciq_1x;resources-218x218_round

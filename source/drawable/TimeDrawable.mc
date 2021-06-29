@@ -90,15 +90,15 @@ class TimeDrawable extends WatchUi.Drawable {
 		}
 		var xPosition = dc.getWidth() / 2 - (timeWidth + secondsWidth) / 2 + timeWidth + 1;
 		xPositionSec =  xPosition + fontSecondsSpaceWidth;
-		yPositionSec = yPosition  +  dc.getFontHeight(font) / 2 - dc.getFontHeight(font2[secSize]) + 2;
+		yPositionSec = yPosition  +  dc.getFontHeight(font) - dc.getFontHeight(font2[secSize]);
 		fonSecondsHeight = dc.getFontHeight(font2[secSize]) + 1;
 
 		// Draw Time
 		dc.setColor(colorTime, Gfx.COLOR_TRANSPARENT);
 		if (meridiam != "") {
-			dc.drawText(15, yPosition - 20, font5, meridiam, Gfx.TEXT_JUSTIFY_RIGHT);
+			dc.drawText(15, yPosition + 10, font5, meridiam, Gfx.TEXT_JUSTIFY_RIGHT);
 		}
-		dc.drawText( xPosition, yPosition, font, hour + ":" + minute, Gfx.TEXT_JUSTIFY_RIGHT | Gfx.TEXT_JUSTIFY_VCENTER);
+		dc.drawText( xPosition, yPosition, font, hour + ":" + minute, Gfx.TEXT_JUSTIFY_RIGHT);
 		// Draw Seconds
 		drawSeconds(dc,sec,false);
 		//

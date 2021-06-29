@@ -100,7 +100,6 @@ class DateDrawable extends WatchUi.Drawable {
 				} else {
 					result = Lang.format("$1$", [info.day.format("%02d")]) + "-" + Lang.format("$1$", [info.month.format("%02d")]);
 				}
-				
 				break;
 			}
 			case DF_YEAR: {
@@ -191,7 +190,7 @@ class DateDrawable extends WatchUi.Drawable {
 			}
 			case DF_MESSAGES: {
 				result = Sys.getDeviceSettings().notificationCount;
-				result = (result == 0) ? "--" : result.format("%02d");
+				result = (!getBluetooth()) ? "--" : result.format("%02d");
 				break;
 			}
 			case DF_TEMP: {
