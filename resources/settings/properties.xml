@@ -1,13 +1,11 @@
 <properties>
-	<property id="appVersion" type="string">1.3.17</property>
-
 	<property id="powerMode" type="number">0</property>
 
 	<property id="powerDNDMode" type="number">0</property>
 
 	<property id="secMode" type="number">0</property>
 
-	<property id="secSize" type="number">1</property>
+	<property id="secSize" type="number">0</property>
 
 	<property id="batteryFormat" type="number">0</property>
 
@@ -16,6 +14,7 @@
 	<property id="dfMode3" type="number">1</property>
 	<property id="dfMode0" type="number">10</property>
 	<property id="dfMode4" type="number">10</property>
+	<property id="dfMode5" type="number">14</property>
 
 	<property id="showBattery" type="boolean">true</property>
 	<property id="showBluetooth" type="boolean">true</property>
@@ -32,6 +31,7 @@
 	<property id="leadingZero" type="boolean">false</property>
 	<property id="timeFormat" type="number">0</property>
 	<property id="secondTime" type="number">0</property>
+	<property id="secondTimeNegative" type="boolean">false</property>
 
 	<property id="colorBackground" type="number">0xFFFFFF</property>
 	<property id="colorBackgroundBanner" type="number">0x000000</property>
@@ -39,6 +39,7 @@
 	<property id="colorData" type="number">0x000000</property>
 	<property id="colorLine" type="number">0x000000</property>
 	<property id="colorInactive" type="number">0xFFFFFF</property>
+	<property id="colorInactiveSec" type="number">0xFFFFFF</property>
 	<property id="colorDnd" type="number">0x000000</property>
 	<property id="colorBattery" type="number">0x000000</property>
 	<property id="colorStrings" type="number">0x00AAFF</property>

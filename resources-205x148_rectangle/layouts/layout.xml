@@ -13,7 +13,7 @@
 		<param name="bannerBottomY">208</param>
 	</drawable>
 	<drawable id="TimeDrawable" class="TimeDrawable">
-		<param name="yPosition">75</param>
+		<param name="yPosition">47</param>
 
 		<param name="fontTimeWidth">28</param>
 		<param name="fontTime1Width">7</param>

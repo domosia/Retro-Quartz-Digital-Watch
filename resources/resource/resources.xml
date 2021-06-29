@@ -6,9 +6,9 @@
 		<font id="id_font_digital_sec_2" filename="fonts/digital_sec_2.fnt"
 			filter="0123456789-" />
 		<font id="id_font_digital_date" filename="fonts/digital_date.fnt"
-			filter="0123456789:-abcdefghijklmnopqrstuvwxyzGHIJKLMNOPQRSTU VWXYZ[\]^" />
+			filter="0123456789.:-abcdefghijklmnopqrstuvwxyzGHIJKLMNOPQRSTU VWXYZ[\]^" />
 		<font id="id_font_digital_date_bat" filename="fonts/digital_date_bat.fnt"
-			filter=" 0123456789" />
+			filter=",. 0123456789" />
 		<font id="id_font_cas10" filename="fonts/cas10.fnt"
 			filter="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ ." />
 		<font id="id_font_cas10_2" filename="fonts/cas10_2.fnt"

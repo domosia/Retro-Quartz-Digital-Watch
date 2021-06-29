@@ -30,6 +30,7 @@
 	<string id="batteryFormat1">Small number</string>
 	<string id="batteryFormat2">Big number</string>
 	
+	<string id="dataFieldSettings5">Left up field type</string>
 	<string id="dataFieldSettings1">Right up field type</string>
 	<string id="dataFieldSettings2">Left down field type</string>
 	<string id="dataFieldSettings3">Right down field type</string>
@@ -49,6 +50,8 @@
 	<string id="df11">Second time</string>
 	<string id="df12">Sunset/Sunrise</string>
 	<string id="df13">Floors</string>
+	<string id="df14">Icons (battery, bluetooth, notifications)</string>
+	<string id="df15">Notification</string>
 	
 	<string id="showBatterySettings">Show battery icon</string>
 	<string id="showBluetoothSettings">Show bluetooth icon</string>
@@ -75,12 +78,15 @@
 	<string id="weekdayLang11">Italian</string>
 	<string id="weekdayLang12">Dutch</string>
 	<string id="weekdayLang13">Norwegian</string>
+	<string id="weekdayLang14">Finnish</string>
+	<string id="weekdayLang15">Serbian</string>
 
 	<string id="timeFormatSettings">Time format</string>
 	<string id="timeFormat0">24 hour</string>
 	<string id="timeFormat1">12 hour</string>
 
-	<string id="secondTimeSettings" scope="foreground">Time zone ±UTC (minutes)</string>
+	<string id="secondTimeNegativeSettings" scope="foreground">Time zone offset is negative</string>
+	<string id="secondTimeSettings" scope="foreground">Time zone ±UTC offset in minutes</string>
 
 	<string id="alignCenterSettings">Time centering</string>
 	<string id="alignCenter0">Classic quartz</string>
@@ -92,6 +98,7 @@
 	<string id="colorDataSettings">Data fields color</string>
 	<string id="colorLineSettings">Split line color</string>
 	<string id="colorInactiveSettings">Inactive color</string>
+	<string id="colorInactiveSecSettings">Inactive seconds color</string>
 	<string id="colorDndSettings">Do not disturb color (if available)</string>
 	<string id="colorBatterySettings">Battery level color</string>
 	<string id="colorStringsSettings">Strings color</string>
