@@ -62,6 +62,8 @@
 	<string id="dateFormatSettings">Date format</string>
 	<string id="dateFormat0">mm-dd</string>
 	<string id="dateFormat1">dd-mm</string>
+	<string id="dateFormat2">dd</string>
+	<string id="dateFormat3">mm</string>
 
 	<string id="weekdayLangSettings">Weekday language</string>
 	<string id="weekdayLang0">English</string>
