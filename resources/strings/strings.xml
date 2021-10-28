@@ -80,6 +80,8 @@
 	<string id="weekdayLang13">Norwegian</string>
 	<string id="weekdayLang14">Finnish</string>
 	<string id="weekdayLang15">Serbian</string>
+	<string id="weekdayLang16">Russian</string>
+	<string id="weekdayLang17">Turkish</string>
 
 	<string id="timeFormatSettings">Time format</string>
 	<string id="timeFormat0">24 hour</string>

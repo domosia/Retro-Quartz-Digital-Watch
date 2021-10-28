@@ -52,6 +52,8 @@
 			<listEntry value="6">@Strings.weekdayLang6</listEntry>
 			<listEntry value="5">@Strings.weekdayLang5</listEntry>
 			<listEntry value="10">@Strings.weekdayLang10</listEntry>
+			<listEntry value="16">@Strings.weekdayLang16</listEntry>
+			<listEntry value="17">@Strings.weekdayLang17</listEntry>
 			<listEntry value="15">@Strings.weekdayLang15</listEntry>
 			<listEntry value="8">@Strings.weekdayLang8</listEntry>
 			<listEntry value="4">@Strings.weekdayLang4</listEntry>
