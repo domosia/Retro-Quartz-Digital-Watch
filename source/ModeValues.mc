@@ -52,6 +52,7 @@ var secSize = 0;
 // 1: dd-mm
 var dateFormat = 0;
 var day_of_week_array = new [7];
+var day_spec = false;
 // 0: 24 h
 // 1: 12 h
 var timeFormat = 0;

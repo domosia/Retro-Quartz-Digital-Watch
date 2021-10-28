@@ -11,6 +11,7 @@ using Toybox.Lang;
 class DateDrawable extends WatchUi.Drawable {
 	var font3;
 	var font4;
+	var font5;
 	private var height = System.getDeviceSettings().screenHeight;
 	private var width = System.getDeviceSettings().screenWidth;
 
@@ -30,6 +31,7 @@ class DateDrawable extends WatchUi.Drawable {
 		Drawable.initialize(options);
 		font3 = WatchUi.loadResource(Rez.Fonts.id_font_digital_date);
 		font4 = WatchUi.loadResource(Rez.Fonts.id_font_digital_date_bat);
+		font5 = Graphics.FONT_LARGE;
 		
 		var marginX = options.get(:marginX);
 		dayX = width-marginX;
@@ -368,7 +370,11 @@ class DateDrawable extends WatchUi.Drawable {
 		}
 
 		dc.setColor(colorData, Gfx.COLOR_TRANSPARENT);
-		dc.drawText(XX, YY, font3, result, textJustify);
+		if ( day_spec && (dataFieldsType[fieldNr] == DF_WEEKDAYS) ) {
+			dc.drawText(XX, YY-6, font5, result, textJustify);
+		} else { 
+			dc.drawText(XX, YY, font3, result, textJustify);
+		}
 	}
 
 	function getBattery() {

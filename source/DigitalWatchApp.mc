@@ -171,6 +171,7 @@ class DigitalWatchApp extends App.AppBase {
 			secHidden = '8';
 		}
 		// day of week
+		day_spec = false;
 		if (weekdayLang == 1) {
 			day_of_week_array = ["dim", "lun", "mar", "mer", "jeu", "ven", "sam"];
 		} else if (weekdayLang == 2) {
@@ -201,6 +202,11 @@ class DigitalWatchApp extends App.AppBase {
 			day_of_week_array = ["su", "ma", "ti", "ke", "to", "pe", "la"];
 		} else if (weekdayLang == 15) {
 			day_of_week_array = ["ned", "pon", "uto", "sre", "cet", "pet", "sub"];
+		} else if (weekdayLang == 16) {
+			day_of_week_array = ["ВОС", "ПОН", "ВТО", "СРЕ", "ЧЕТ", "ПЯТ", "СУБ"];
+			day_spec = true;
+		} else if (weekdayLang == 17) {
+			day_of_week_array = ["paz", "pts", "sal", "crs", "per", "cum", "cts"];
 		} else {
 			day_of_week_array = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 		}
