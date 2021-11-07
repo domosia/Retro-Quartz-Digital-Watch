@@ -14,7 +14,7 @@
 	<string id="pdndm0">Off</string>
 	<string id="pdndm1">No seconds</string>
 
-	<string id="leadingZeroSettings">Show Hours Leading Zero (24h mode)</string>
+	<string id="leadingZeroSettings">Show Hours Leading Zero</string>
 
 	<string id="secModeSettings">Seconds on power saving mode</string>
 	<string id="sm0">--</string>

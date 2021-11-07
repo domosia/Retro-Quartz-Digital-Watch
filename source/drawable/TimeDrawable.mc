@@ -152,7 +152,7 @@ class TimeDrawable extends WatchUi.Drawable {
 		var clockTime = System.getClockTime();
 		var hour_ = clockTime.hour;
 		hour = Lang.format("$1$", [calculateHour(hour_)]);
-		if (leadingZero and hour.length() == 1 and timeFormat == 0) {
+		if (leadingZero and hour.length() == 1) {
 			hour = "0" + hour;
 		} 
 		minute = Lang.format("$1$", [ clockTime.min.format("%02d")]);
