@@ -21,6 +21,10 @@ descentmk1.resourcePath = $(descentmk1.resourcePath);resources-ciq_2x;resources-
 
 descentmk2.resourcePath = $(descentmk2.resourcePath);resources-ciq_2x;resources-280x280_round
 
+descentmk2s.resourcePath = $(descentmk2s.resourcePath);resources-ciq_2x;resources-240x240_round
+
+enduro.resourcePath = $(enduro.resourcePath);resources-ciq_2x;resources-280x280_round
+
 fenix3.resourcePath = $(fenix3.resourcePath);resources-ciq_1x;resources-218x218_round
 
 fenix3_hr.resourcePath = $(fenix3_hr.resourcePath);resources-ciq_1x;resources-218x218_round
@@ -41,11 +45,19 @@ fenix6.resourcePath = $(fenix6.resourcePath);resources-ciq_2x;resources-260x260_
 
 fenix6pro.resourcePath = $(fenix6pro.resourcePath);resources-ciq_2x;resources-260x260_round
 
+fenix6prosystem5preview.resourcePath = $(fenix6prosystem5preview.resourcePath);resources-ciq_2x;resources-260x260_round
+
 fenix6s.resourcePath = $(fenix6s.resourcePath);resources-ciq_2x;resources-240x240_round
 
 fenix6spro.resourcePath = $(fenix6spro.resourcePath);resources-ciq_2x;resources-240x240_round
 
 fenix6xpro.resourcePath = $(fenix6xpro.resourcePath);resources-ciq_2x;resources-280x280_round
+
+fenix7.resourcePath = $(fenix7.resourcePath);resources-ciq_2x;resources-260x260_round
+
+fenix7s.resourcePath = $(fenix7s.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fenix7x.resourcePath = $(fenix7x.resourcePath);resources-ciq_2x;resources-280x280_round
 
 fenixchronos.resourcePath = $(fenixchronos.resourcePath);resources-ciq_2x;resources-218x218_round
 
@@ -58,6 +70,8 @@ fr245.resourcePath = $(fr245.resourcePath);resources-ciq_2x;resources-240x240_ro
 fr245m.resourcePath = $(fr245m.resourcePath);resources-ciq_2x;resources-240x240_round
 
 fr45.resourcePath = $(fr45.resourcePath);resources-ciq_1x;resources-208x208_round
+
+fr55.resourcePath = $(fr55.resourcePath);resources-ciq_2x;resources-208x208_round
 
 fr630.resourcePath = $(fr630.resourcePath);resources-ciq_1x;resources-215x180_round
 
@@ -74,6 +88,8 @@ fr920xt.resourcePath = $(fr920xt.resourcePath);resources-ciq_1x;resources-205x14
 fr935.resourcePath = $(fr935.resourcePath);resources-ciq_2x;resources-240x240_round
 
 fr945.resourcePath = $(fr945.resourcePath);resources-ciq_2x;resources-240x240_round
+
+fr945lte.resourcePath = $(fr945lte.resourcePath);resources-ciq_2x;resources-240x240_round
 
 garminswim2.resourcePath = $(garminswim2.resourcePath);resources-ciq_1x;resources-208x208_round
 
