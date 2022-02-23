@@ -42,6 +42,8 @@
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.dateFormat0</listEntry>
 			<listEntry value="1">@Strings.dateFormat1</listEntry>
+			<listEntry value="2">@Strings.dateFormat2</listEntry>
+			<listEntry value="3">@Strings.dateFormat3</listEntry>
 		</settingConfig>
 	</setting>
 

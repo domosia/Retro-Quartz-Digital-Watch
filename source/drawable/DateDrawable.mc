@@ -99,8 +99,12 @@ class DateDrawable extends WatchUi.Drawable {
 				var info = Calendar.info(Time.now(), Time.FORMAT_SHORT);
 				if (dateFormat == 0) {
 					result = Lang.format("$1$", [info.month]) + "-" + Lang.format("$1$", [info.day.format("%02d")]);
-				} else {
+				} else if (dateFormat == 1) {
 					result = Lang.format("$1$", [info.day.format("%02d")]) + "-" + Lang.format("$1$", [info.month.format("%02d")]);
+				} else if (dateFormat == 2) {
+					result = Lang.format("$1$", [info.day.format("%02d")]);
+				} else {
+					result = Lang.format("$1$", [info.month.format("%02d")]);
 				}
 				break;
 			}

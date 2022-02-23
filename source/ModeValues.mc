@@ -50,6 +50,8 @@ var secHidden = null;
 var secSize = 0;
 // 0: mm-dd
 // 1: dd-mm
+// 2: dd
+// 3: mm
 var dateFormat = 0;
 var day_of_week_array = new [7];
 var day_spec = false;
